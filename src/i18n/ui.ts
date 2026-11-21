@@ -76,7 +76,11 @@ export const T = {
   worksFilterParticipation: tri("参加形態", "制作参与度", "Participation"),
   worksSelected: tri("SELECTED", "精选", "SELECTED"),
   worksAllLabel: tri("ALL WORKS", "全部作品", "ALL WORKS"),
-  worksEmptyOriginal: tri("現在準備中 — COMING SOON", "現在準備中 — COMING SOON", "CURRENTLY IN PREPARATION — COMING SOON"),
+  worksEmptyText: tri(
+    "この条件に該当する作品はまだありません。",
+    "该筛选下暂无作品。",
+    "No works match this filter."
+  ),
   worksEmptyTitle: tri("NO SIGNAL", "NO SIGNAL", "NO SIGNAL"),
   participationFull: tri("全制作", "全部制作", "Full production"),
   participationPartial: tri("部分制作", "部分制作", "Partial production"),

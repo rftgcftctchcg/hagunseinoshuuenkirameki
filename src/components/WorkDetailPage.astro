@@ -57,7 +57,7 @@ const canonicalPath = `${lang === "ja" ? "" : `${lang}/`}works/${work.bvid}/`;
 
       <header class="detail-head" data-reveal>
         <span class="detail-no mono">NO.{no}</span>
-        <h1 class="detail-title display">{work.title}</h1>
+        <h1 class="detail-title">{work.title}</h1>
         <div class="detail-tags">
           <span class="tag">{categoryLabel(work.category, lang)}</span>
           <span class="tag">{participationLabel(work.participation, lang)}</span>
@@ -129,9 +129,18 @@ const canonicalPath = `${lang === "ja" ? "" : `${lang}/`}works/${work.bvid}/`;
               {work.credits.map((credit) => (
                 <li class:list={["credits__row", credit.self && "is-self"]}>
                   <span class="credits__role mono">{credit.role}</span>
-                  <span class="credits__name">{credit.name}</span>
-                  {credit.link && (
-                    <a class="credits__link mono" href={credit.link} target="_blank" rel="noopener">↗</a>
+                  {credit.link ? (
+                    <a
+                      class="credits__name credits__name--link"
+                      href={credit.link}
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      {credit.name}
+                      <span class="credits__arrow" aria-hidden="true">↗</span>
+                    </a>
+                  ) : (
+                    <span class="credits__name">{credit.name}</span>
                   )}
                 </li>
               ))}

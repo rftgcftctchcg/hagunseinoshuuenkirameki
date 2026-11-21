@@ -1707,6 +1707,45 @@ npm run build
 - 当前构建：**145 页**（3 语言首页 + 47×3 作品详情 + 404）。
 - 构建期不联网；数据来自 `data/works.json`。若某部作品缺分类，编辑 `data/works.manual.yaml` 后跑 `bili_fetch_works.py --merge`。
 
+### 8.5 新增作品维护流程
+
+发布新视频后，不要手改页面；按下面顺序刷新数据、构建、推送即可：
+
+```bash
+# 1. 刷新投稿清单（需要 API_Program/secrets.local.json 或 BILI_SESSDATA）
+python API_Program/bili_all_videos.py
+
+# 2. 拉取新作品详情 / 更新播放量
+python API_Program/bili_fetch_works.py --auto
+
+# 3. 为新 BV 补 manual 骨架（不会覆盖已有字段；会备份 .bak）
+python API_Program/bili_annotate.py --init
+
+# 4. 编辑 data/works.manual.yaml 中新 BV 的 category / participation / credits
+#    category 只能是：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+
+# 5. 校验并合并成构建数据
+python API_Program/bili_annotate.py --check
+python API_Program/bili_fetch_works.py --merge
+
+# 6. 本地构建预览
+npm run build
+npm run preview
+
+# 7. 推送 main，GitHub Actions 自动部署
+git add -A
+git commit -m "content: add BVxxxxxxxxxx"
+git push
+```
+
+- **原创曲**：只要新条目 `category: 原创曲`，分类计数自动变为 1，`NO SIGNAL` 空状态只会在筛选结果为 0 时出现，不会写死。
+- **WORKS 排序**：每次构建按「featured → featuredOrder → 播放量降序 → 发布时间降序」动态重排；新作品不设 featured 就按播放量落在对应位置。
+- **TOP 最新 3 部**：按 `pubdate` 自动取，新视频发布后自动进入。
+- 想固定新作品位置：在 `works.manual.yaml` 里设 `featured: true` 和 `featuredOrder`，`getTopFeatured()` 只取前 4 部。
+- 新合作者：把 mid/url 加到 `data/people.yaml`，再跑 `--merge`；详情页 Credits 的名称会变成可点击链接。
+- 只想刷新播放量：重复步骤 2 → 5 → 7，不需要改 manual。
+- `data/works.json`、`data/stats.json`、`docs/works.generated.md` 都是生成文件，不要手改。
+
 ---
 
 ## 9. 待补充（下一阶段）
@@ -1715,9 +1754,9 @@ npm run build
 
 - [x] **安装依赖**：Python 侧 `cd API_Program && pip install -r requirements.txt`；前端 `pnpm install`
 - [x] **47 部的 `category`**：已全部填写，`data/works.json` 未分类 0 部；可继续在 `data/works.manual.yaml` 调整
-- [x] **未解析人名**：`data/people.yaml` 已生成；`咕咕札`、`John Kell`、`WOVOP` 等可补链接或保持纯文本
+- [x] **未解析人名**：`data/people.yaml` 已生成；`咕咕札` 已补 mid，`John Kell`、`WOVOP` 等可继续补链接或保持纯文本
 - [x] **SESSDATA**：已配置本地 `secrets.local.json`；建议轮换一次旧 Cookie
-- [ ] **部署**：push 到 GitHub → Settings → Pages → Source 选 **GitHub Actions**；工作流已放在 `.github/workflows/deploy.yml`
+- [x] **部署**：已启用 GitHub Actions；`https://rftgcftctchcg.github.io/hagunseinoshuuenkirameki/`
 - [x] OG Image → 由 `ME/YT头图.png` 自动生成
 - [x] favicon → 由 LOGO 的断裂圆环生成
 - [x] ARCHIVE 分区图 → 从 `ME/人物设定.png` 单图裁切
