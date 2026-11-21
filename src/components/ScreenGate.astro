@@ -1,0 +1,21 @@
+---
+import { t } from "../i18n/ui";
+import type { Lang } from "../utils/paths";
+import WaveLine from "./WaveLine.astro";
+
+interface Props {
+  nextId: string;
+  nextIndex: string;
+  nextLabel: string;
+  lang: Lang;
+}
+
+const { nextId, nextIndex, nextLabel, lang } = Astro.props;
+---
+
+<a class="screen-gate" href={`#${nextId}`} data-screen-gate data-reveal>
+  <span class="screen-gate__line"><WaveLine animated /></span>
+  <span class="screen-gate__index mono">{nextIndex}</span>
+  <span class="screen-gate__label display">{nextLabel}</span>
+  <span class="screen-gate__next mono">↓ {t("next", lang)}</span>
+</a>

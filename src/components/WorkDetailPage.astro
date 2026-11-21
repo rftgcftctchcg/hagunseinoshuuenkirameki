@@ -1,0 +1,199 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import WorkCard from "./WorkCard.astro";
+import {
+  bilibiliUrl,
+  categoryLabel,
+  coverUrl,
+  formatDate,
+  formatDuration,
+  formatView,
+  getPrevNext,
+  getRelated,
+  ownerLabel,
+  participationLabel,
+  playerUrl,
+  type Work,
+} from "../data/works";
+import { t } from "../i18n/ui";
+import type { Lang } from "../utils/paths";
+import { assetPath, homePath, workPath } from "../utils/paths";
+
+interface Props {
+  work: Work;
+  lang: Lang;
+}
+
+const { work, lang } = Astro.props;
+const { prev, next } = getPrevNext(work);
+const related = getRelated(work, 4);
+const cover = coverUrl(work.pic, "hero");
+const fallback = assetPath("ring-placeholder.svg");
+const description = (work.desc_display || "").slice(0, 120).replace(/\s+/g, " ").trim();
+const no = String(work.no).padStart(3, "0");
+const stats = [
+  { label: t("statView", lang), value: formatView(work.stat.view) },
+  { label: t("statLike", lang), value: formatView(work.stat.like) },
+  { label: t("statCoin", lang), value: formatView(work.stat.coin) },
+  { label: t("statFavorite", lang), value: formatView(work.stat.favorite) },
+  { label: t("statDanmaku", lang), value: formatView(work.stat.danmaku) },
+  { label: t("statReply", lang), value: formatView(work.stat.reply) },
+];
+const canonicalPath = `${lang === "ja" ? "" : `${lang}/`}works/${work.bvid}/`;
+---
+
+<BaseLayout
+  lang={lang}
+  page="detail"
+  canonicalPath={canonicalPath}
+  title={work.title}
+  description={description || `${work.title} — ${work.owner.name}`}
+  ogTitle={work.title}
+  ogDescription={description || work.title}
+>
+  <article class="work-detail">
+    <div class="wrap">
+      <a class="back-link mono" href={`${homePath(lang)}#works`} data-back-works>{t("backWorks", lang)}</a>
+
+      <header class="detail-head" data-reveal>
+        <span class="detail-no mono">NO.{no}</span>
+        <h1 class="detail-title display">{work.title}</h1>
+        <div class="detail-tags">
+          <span class="tag">{categoryLabel(work.category, lang)}</span>
+          <span class="tag">{participationLabel(work.participation, lang)}</span>
+          <span class="tag mono">{formatDate(work.created_str)}</span>
+          <span class="tag mono">{formatDuration(work.duration)}</span>
+        </div>
+        <a class="detail-watch mono" href={bilibiliUrl(work)} target="_blank" rel="noopener">
+          {t("watch", lang)} ↗
+        </a>
+      </header>
+
+      <div class="detail-hero" data-reveal>
+        <img
+          src={cover}
+          data-fallback={fallback}
+          alt={work.title}
+          width="960"
+          height="540"
+          loading="eager"
+          decoding="async"
+          referrerpolicy="no-referrer"
+          transition:name={`work-${work.bvid}`}
+          onerror="this.onerror=null;this.src=this.dataset.fallback;"
+        />
+        <a class="detail-play" href={bilibiliUrl(work)} target="_blank" rel="noopener" aria-label={t("watch", lang)}>▶</a>
+      </div>
+
+      <div class="detail-layout">
+        <div class="detail-main">
+          <section class="detail-stats" data-reveal>
+            {stats.map((item) => (
+              <div class="detail-stat">
+                <span class="detail-stat__value mono">{item.value}</span>
+                <span class="detail-stat__label mono">{item.label}</span>
+              </div>
+            ))}
+          </section>
+
+          <section class="detail-section" data-reveal>
+            <h2 class="detail-section__title mono">{t("info", lang)}</h2>
+            <dl class="detail-info">
+              <div><dt class="mono">{t("worksFilterParticipation", lang)}</dt><dd>{work.participation}</dd></div>
+              <div><dt class="mono">{t("owner", lang)}</dt><dd>{ownerLabel(work, lang)}</dd></div>
+              <div><dt class="mono">{t("categories", lang)}</dt><dd>{categoryLabel(work.category, lang)}</dd></div>
+              <div><dt class="mono">{t("posted", lang)}</dt><dd>{formatDate(work.created_str)}</dd></div>
+              <div><dt class="mono">{t("duration", lang)}</dt><dd>{formatDuration(work.duration)}</dd></div>
+              <div><dt class="mono">BVID</dt><dd class="mono">{work.bvid}</dd></div>
+            </dl>
+          </section>
+
+          <section class="detail-section" data-reveal>
+            <h2 class="detail-section__title mono">{t("description", lang)}</h2>
+            {work.desc_display ? (
+              <p class="detail-desc">{work.desc_display}</p>
+            ) : (
+              <p class="detail-desc detail-desc--empty mono">{t("noDescription", lang)}</p>
+            )}
+            {work.desc && (
+              <details class="detail-raw">
+                <summary class="mono">{t("rawDesc", lang)}</summary>
+                <pre>{work.desc}</pre>
+              </details>
+            )}
+          </section>
+
+          <section class="detail-section" data-reveal>
+            <h2 class="detail-section__title mono">{t("credits", lang)}</h2>
+            <ul class="credits">
+              {work.credits.map((credit) => (
+                <li class:list={["credits__row", credit.self && "is-self"]}>
+                  <span class="credits__role mono">{credit.role}</span>
+                  <span class="credits__name">{credit.name}</span>
+                  {credit.link && (
+                    <a class="credits__link mono" href={credit.link} target="_blank" rel="noopener">↗</a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <details class="detail-embed" data-reveal>
+            <summary class="mono">EMBED PLAYER / BILIBILI</summary>
+            <div class="detail-embed__frame">
+              <iframe
+                src={playerUrl(work)}
+                title={work.title}
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </details>
+        </div>
+
+        <aside class="detail-side" data-reveal>
+          <div class="detail-side__cover">
+            <img
+              src={cover}
+              alt={work.title}
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+              onerror="this.onerror=null;this.src=this.dataset.fallback;"
+              data-fallback={fallback}
+            />
+          </div>
+          <dl class="detail-side__meta">
+            <div><dt class="mono">{t("statView", lang)}</dt><dd class="mono">{formatView(work.stat.view)}</dd></div>
+            <div><dt class="mono">{t("statFavorite", lang)}</dt><dd class="mono">{formatView(work.stat.favorite)}</dd></div>
+            <div><dt class="mono">{t("statLike", lang)}</dt><dd class="mono">{formatView(work.stat.like)}</dd></div>
+          </dl>
+        </aside>
+      </div>
+
+      <nav class="detail-pager" aria-label="Works navigation">
+        {prev ? (
+          <a href={workPath(lang, prev.bvid)}>
+            <span class="mono">← {t("prev", lang)}</span>
+            <strong>{prev.title}</strong>
+          </a>
+        ) : <span></span>}
+        {next ? (
+          <a href={workPath(lang, next.bvid)} class="detail-pager__next">
+            <span class="mono">{t("nextWork", lang)} →</span>
+            <strong>{next.title}</strong>
+          </a>
+        ) : <span></span>}
+      </nav>
+
+      {related.length > 0 && (
+        <section class="detail-related" data-reveal>
+          <h2 class="detail-section__title mono">{t("related", lang)}</h2>
+          <div class="related-grid">
+            {related.map((item) => <WorkCard work={item} lang={lang} />)}
+          </div>
+        </section>
+      )}
+    </div>
+  </article>
+</BaseLayout>

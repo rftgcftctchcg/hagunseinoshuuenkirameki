@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270">
+    <rect width="480" height="270" fill="#F2F2F3"/>
+    <g fill="none" stroke="#A8A8B0" stroke-width="3">
+      <circle cx="240" cy="118" r="46" pathLength="360" stroke-dasharray="150 210" transform="rotate(-15 240 118)"/>
+      <circle cx="240" cy="118" r="46" pathLength="360" stroke-dasharray="150 210" transform="rotate(165 240 118)"/>
+    </g>
+    <text x="240" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="6" fill="#6E6E78">NO SIGNAL</text>
+  </svg>

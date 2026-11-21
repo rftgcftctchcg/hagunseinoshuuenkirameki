@@ -1,0 +1,103 @@
+---
+import { ClientRouter } from "astro:transitions";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import MiniPlayer from "../components/MiniPlayer.astro";
+import Lightbox from "../components/Lightbox.astro";
+import Cursor from "../components/Cursor.astro";
+import { t } from "../i18n/ui";
+import { absoluteUrl, assetPath, BASE } from "../utils/paths";
+import type { Lang } from "../utils/paths";
+
+import "../styles/tokens.css";
+import "../styles/base.css";
+import "../styles/motion.css";
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  canonicalPath?: string;
+  page?: "home" | "detail" | "404";
+  bare?: boolean;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+}
+
+const {
+  lang,
+  title = "RIPJune — Vocaloid Music Creator",
+  description = "破軍星の終焉煌めき / メキチャン。二创剪辑与 Vocaloid 歌唱。",
+  canonicalPath = "",
+  page = "home",
+  bare = false,
+  ogTitle,
+  ogDescription,
+  ogImage = "og-image.jpg",
+} = Astro.props;
+
+const fullTitle = title.includes("RIPJune") ? title : `${title} — RIPJune`;
+const canonical = absoluteUrl(canonicalPath);
+const stripped = (canonicalPath || "").replace(/^(zh|en)\//, "");
+const suffix = stripped.startsWith("works/") ? stripped : "";
+const alternates = {
+  ja: absoluteUrl(suffix),
+  zh: absoluteUrl(`zh/${suffix}`),
+  en: absoluteUrl(`en/${suffix}`),
+};
+const og = absoluteUrl(ogImage);
+---
+
+<!doctype html>
+<html lang={lang === "ja" ? "ja" : lang === "zh" ? "zh-CN" : "en"} data-base={BASE} data-lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>document.documentElement.classList.add("js");</script>
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="ja" href={alternates.ja} />
+    <link rel="alternate" hreflang="zh-CN" href={alternates.zh} />
+    <link rel="alternate" hreflang="en" href={alternates.en} />
+    <link rel="alternate" hreflang="x-default" href={alternates.ja} />
+    <link rel="icon" type="image/svg+xml" href={assetPath("favicon.svg")} />
+    <meta name="theme-color" content="#08080A" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RIPJune" />
+    <meta property="og:title" content={ogTitle ?? fullTitle} />
+    <meta property="og:description" content={ogDescription ?? description} />
+    <meta property="og:image" content={og} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={ogTitle ?? fullTitle} />
+    <meta name="twitter:description" content={ogDescription ?? description} />
+    <meta name="twitter:image" content={og} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@400;600&family=Shippori+Mincho:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <ClientRouter />
+  </head>
+  <body class:list={[`lang-${lang}`, `page-${page}`, bare && "page-bare"]}>
+    <div class="site-bg" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">{t("skip", lang)}</a>
+    {!bare && <Header lang={lang} page={page} />}
+    <main id="main" class="site-main" tabindex="-1">
+      <slot />
+    </main>
+    {!bare && <Footer lang={lang} />}
+    {!bare && <MiniPlayer lang={lang} />}
+    {!bare && <Cursor />}
+    {!bare && <Lightbox lang={lang} />}
+    <script>
+      import "../scripts/site.js";
+    </script>
+  </body>
+</html>

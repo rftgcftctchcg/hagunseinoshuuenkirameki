@@ -1,0 +1,49 @@
+---
+import { SNS_LINKS } from "../data/social";
+import SnsIcon from "./SnsIcon.astro";
+import type { Lang } from "../utils/paths";
+
+interface Props {
+  variant?: "icons" | "row" | "cards";
+  lang?: Lang;
+}
+
+const { variant = "icons", lang = "ja" } = Astro.props;
+---
+
+{variant === "cards" ? (
+  <div class="sns-cards">
+    {SNS_LINKS.map((link) => (
+      <a
+        class="sns-card"
+        href={link.href}
+        target="_blank"
+        rel="me noopener"
+        aria-label={`${link.label} ${link.handle}`}
+      >
+        <span class="sns-card__icon"><SnsIcon name={link.key} size={22} /></span>
+        <span class="sns-card__label">{link.label}</span>
+        <span class="sns-card__handle mono">{link.handle}</span>
+        <span class="sns-card__arrow" aria-hidden="true">→</span>
+      </a>
+    ))}
+  </div>
+) : (
+  <ul class:list={["sns-list", `sns-list--${variant}`]}>
+    {SNS_LINKS.map((link) => (
+      <li>
+        <a
+          href={link.href}
+          target="_blank"
+          rel="me noopener"
+          aria-label={`${link.label} ${link.handle}`}
+        >
+          <SnsIcon name={link.key} size={18} />
+          {variant === "row" && (
+            <span class="sns-list__handle mono">{link.handle}</span>
+          )}
+        </a>
+      </li>
+    ))}
+  </ul>
+)}

@@ -1,0 +1,36 @@
+---
+import { assetPath } from "../utils/paths";
+import type { Rect } from "../data/archive";
+
+interface Props {
+  rect: Rect;
+  alt: string;
+  class?: string;
+  lightbox?: boolean;
+}
+
+const { rect, alt, class: className = "", lightbox = true } = Astro.props;
+const sheet = assetPath("character-sheet.webp");
+const w = Math.max(0.001, rect.w);
+const h = Math.max(0.001, rect.h);
+const bgSize = `${(100 / w).toFixed(3)}% ${(100 / h).toFixed(3)}%`;
+const bgPos = `${((rect.x / Math.max(0.0001, 1 - w)) * 100).toFixed(3)}% ${(
+  (rect.y / Math.max(0.0001, 1 - h)) *
+  100
+).toFixed(3)}%`;
+const ratioW = (1672 * w).toFixed(2);
+const ratioH = (941 * h).toFixed(2);
+const style = `--sheet:url("${sheet}");--bg-size:${bgSize};--bg-pos:${bgPos};aspect-ratio:${ratioW} / ${ratioH};`;
+---
+
+<button
+  type="button"
+  class:list={["sheet-crop", className]}
+  style={style}
+  aria-label={alt}
+  data-lightbox={lightbox ? "" : undefined}
+  data-src={lightbox ? sheet : undefined}
+  data-alt={lightbox ? alt : undefined}
+>
+  <span class="sr-only">{alt}</span>
+</button>

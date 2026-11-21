@@ -1,0 +1,67 @@
+---
+import { categoryTabs, worksFor } from "../data/works";
+import { t } from "../i18n/ui";
+import type { Lang } from "../utils/paths";
+import WorkCard from "./WorkCard.astro";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const tabs = categoryTabs(lang);
+const all = worksFor("ALL");
+const featured = all.filter((work) => work.featured);
+const rest = all.filter((work) => !work.featured);
+const participationOptions = [
+  { value: "ALL", label: t("worksFilterAll", lang) },
+  { value: "full", label: t("participationFull", lang) },
+  { value: "partial", label: t("participationPartial", lang) },
+  { value: "joint", label: t("participationJoint", lang) },
+  { value: "proxy", label: t("participationProxy", lang) },
+  { value: "repost", label: t("participationRepost", lang) },
+];
+---
+
+<div class="works-explorer" data-works-explorer>
+  <div class="works-toolbar">
+    <div class="works-tabs" role="group" aria-label="Categories">
+      {tabs.map((tab, index) => (
+        <button
+          type="button"
+          class:list={["works-tab", index === 0 && "is-active"]}
+          data-filter={tab.value}
+          aria-pressed={index === 0 ? "true" : "false"}
+        >
+          <span>{tab.label}</span>
+          <span class="works-tab__count mono">{tab.count}</span>
+        </button>
+      ))}
+      <span class="works-tab-indicator" data-works-indicator aria-hidden="true"></span>
+    </div>
+    <label class="works-filter">
+      <span class="mono">{t("worksFilter", lang)}</span>
+      <select data-participation-filter aria-label={t("worksFilterParticipation", lang)}>
+        {participationOptions.map((opt) => (
+          <option value={opt.value}>{opt.label}</option>
+        ))}
+      </select>
+    </label>
+  </div>
+
+  <div class="works-grid" data-works-grid>
+    {featured.map((work) => <WorkCard work={work} lang={lang} />)}
+    <div class="works-divider" data-works-divider aria-hidden="true">
+      <span class="mono">{t("worksSelected", lang)}</span>
+      <span class="works-divider__line"></span>
+      <span class="mono">{t("worksAllLabel", lang)}</span>
+    </div>
+    {rest.map((work) => <WorkCard work={work} lang={lang} />)}
+  </div>
+
+  <div class="works-empty" data-works-empty hidden>
+    <span class="works-empty__ring" aria-hidden="true"></span>
+    <strong class="mono">{t("worksEmptyTitle", lang)}</strong>
+    <span>{t("worksEmptyOriginal", lang)}</span>
+  </div>
+</div>

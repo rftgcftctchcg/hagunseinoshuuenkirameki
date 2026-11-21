@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-21 16:09:45",
+  "profile": {
+    "generated_at": "2026-11-21 15:00:48",
+    "fans": 5756,
+    "like_num": 64227,
+    "archive_count": 47,
+    "total_view": 1372734,
+    "total_likes": 64227,
+    "source": "card/upstat",
+    "notes": []
+  },
+  "works": {
+    "count": 47,
+    "sum": {
+      "view": 1732070,
+      "like": 67551,
+      "coin": 5792,
+      "favorite": 58341,
+      "danmaku": 5072,
+      "reply": 2552,
+      "share": 421
+    },
+    "max_view": {
+      "bvid": "BV17Q9fBcE8M",
+      "title": "【圆桌动漫】（绝对高质）论真女主这一块，谁是颜值与实力并存的十大女主之最？",
+      "value": 529861,
+      "favorite": 37806,
+      "danmaku": 490,
+      "reply": 64,
+      "pubdate": 1777807800,
+      "created_str": "2026-05-03 19:30:00"
+    },
+    "max_favorite": {
+      "bvid": "BV17Q9fBcE8M",
+      "title": "【圆桌动漫】（绝对高质）论真女主这一块，谁是颜值与实力并存的十大女主之最？",
+      "value": 37806,
+      "favorite": 37806,
+      "danmaku": 490,
+      "reply": 64,
+      "pubdate": 1777807800,
+      "created_str": "2026-05-03 19:30:00"
+    },
+    "max_interaction": {
+      "bvid": "BV1q3hA6nEnz",
+      "title": "【弹丸论破vocaloid】第四章学籍裁判（下）",
+      "value": 3940,
+      "favorite": 7249,
+      "danmaku": 2719,
+      "reply": 1221,
+      "pubdate": 1787808600,
+      "created_str": "2026-08-27 13:30:00"
+    },
+    "earliest": {
+      "bvid": "BV1M5DCB8E9i",
+      "title": "瞧一瞧，看一看呐，又一个圆桌小UP主从炼丹炉里出来了！【新人驾到，请多指教】",
+      "value": 30973,
+      "favorite": 874,
+      "danmaku": 102,
+      "reply": 68,
+      "pubdate": 1775899800,
+      "created_str": "2026-04-11 17:30:00"
+    },
+    "latest": {
+      "bvid": "BV134sn6kEfJ",
+      "title": "【术论3创|抽象预警】苹果让刑",
+      "value": 2316,
+      "favorite": 142,
+      "danmaku": 27,
+      "reply": 18,
+      "pubdate": 1794723931,
+      "created_str": "2026-11-15 14:25:31"
+    }
+  },
+  "categories": {
+    "其他": 9,
+    "二创剪辑": 33,
+    "VOCALOID": 4,
+    "搬运": 1
+  },
+  "unclassified": 0
+}

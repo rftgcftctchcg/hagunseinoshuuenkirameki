@@ -1,0 +1,20 @@
+---
+import { t } from "../i18n/ui";
+import type { Lang } from "../utils/paths";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<dialog class="lightbox" data-lightbox-dialog aria-label="Image viewer">
+  <button class="lightbox__close mono" type="button" data-lightbox-close aria-label={t("close", lang)}>×</button>
+  <button class="lightbox__nav lightbox__nav--prev mono" type="button" data-lightbox-prev aria-label={t("prevImage", lang)}>←</button>
+  <figure class="lightbox__figure">
+    <img data-lightbox-image src="" alt="" />
+    <figcaption class="lightbox__caption mono" data-lightbox-caption></figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next mono" type="button" data-lightbox-next aria-label={t("nextImage", lang)}>→</button>
+</dialog>

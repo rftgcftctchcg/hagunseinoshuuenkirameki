@@ -1,0 +1,2631 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-21 16:09:45",
+  "count": 47,
+  "self": {
+    "mid": 1016873598,
+    "altMids": [
+      3707010312833870
+    ],
+    "name": "破軍星の終焉煌めき",
+    "aliases": [
+      "永存瑶光_烛照周天",
+      "在瑶光中永存",
+      "破軍星の终焉煌めき",
+      "Hagunseishn_Krmk"
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV1M5DCB8E9i",
+      "aid": 116385309006760,
+      "cid": 37417257603,
+      "title": "瞧一瞧，看一看呐，又一个圆桌小UP主从炼丹炉里出来了！【新人驾到，请多指教】",
+      "desc": "瑶光，照亮前方！",
+      "pic": "https://i1.hdslb.com/bfs/archive/6e4fca12fd58885f86b00085be6cd223f5c3af74.jpg",
+      "duration": 190,
+      "length": "03:10",
+      "pubdate": 1775899800,
+      "created_str": "2026-04-11 17:30:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 30973,
+        "like": 1247,
+        "coin": 83,
+        "favorite": 874,
+        "danmaku": 102,
+        "reply": 68,
+        "share": 3
+      },
+      "video_review": 102,
+      "status": "ok",
+      "source": "live",
+      "no": 1,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "瑶光，照亮前方！",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1shDmBNE25",
+      "aid": 116389285271315,
+      "cid": 37435475274,
+      "title": "“不是朋友”/“笼中瑶，何时飞”《精卫》【圆桌动漫剪辑】",
+      "desc": "第一个自制圆桌剪辑，🦀🦀支持！",
+      "pic": "https://i2.hdslb.com/bfs/archive/429620309774e783bc30e129c92eb012f2756232.jpg",
+      "duration": 49,
+      "length": "00:49",
+      "pubdate": 1775961000,
+      "created_str": "2026-04-12 10:30:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 5266,
+        "like": 266,
+        "coin": 31,
+        "favorite": 114,
+        "danmaku": 3,
+        "reply": 25,
+        "share": 11
+      },
+      "video_review": 3,
+      "status": "ok",
+      "source": "live",
+      "no": 2,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "第一个自制圆桌剪辑，🦀🦀支持！",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1hkdLBNEwt",
+      "aid": 116420759264676,
+      "cid": 37589419118,
+      "title": "“有一个人来买油条……”【圆桌动漫剪辑】",
+      "desc": "肝了3个小时……",
+      "pic": "https://i1.hdslb.com/bfs/archive/d69eace3133c111598d5a8b27b6c6e03cdb0ae3d.jpg",
+      "duration": 124,
+      "length": "02:04",
+      "pubdate": 1776470400,
+      "created_str": "2026-04-18 08:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 59520,
+        "like": 762,
+        "coin": 24,
+        "favorite": 538,
+        "danmaku": 7,
+        "reply": 19,
+        "share": 4
+      },
+      "video_review": 7,
+      "status": "ok",
+      "source": "live",
+      "no": 3,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "肝了3个小时……",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1TcdpB7EDR",
+      "aid": 116425473792024,
+      "cid": 37611179394,
+      "title": "【全程高能】十大反派敬上！",
+      "desc": "请一定要耐心看完！\n纯原创\n（不会画画怎么办）",
+      "pic": "https://i0.hdslb.com/bfs/archive/5495aa6552c67aed25289a5880016f26ac0036df.jpg",
+      "duration": 44,
+      "length": "00:44",
+      "pubdate": 1776513600,
+      "created_str": "2026-04-18 20:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 16005,
+        "like": 2563,
+        "coin": 25,
+        "favorite": 704,
+        "danmaku": 21,
+        "reply": 43,
+        "share": 5
+      },
+      "video_review": 21,
+      "status": "ok",
+      "source": "live",
+      "no": 4,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "请一定要耐心看完！\n纯原创\n（不会画画怎么办）",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1Q3ojBuEMs",
+      "aid": 116459682536083,
+      "cid": 37785963976,
+      "title": "【圆桌动漫/颗秒funk/我是秦始皇/精卫】颗秒！其实我是秦始皇，不会填海不会飞",
+      "desc": "玩梗有度，切莫贪杯。",
+      "pic": "https://i0.hdslb.com/bfs/archive/ba2491bf7b7fd9e59bbbb7e73de6305038c466a1.jpg",
+      "duration": 60,
+      "length": "01:00",
+      "pubdate": 1777035600,
+      "created_str": "2026-04-24 21:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 28858,
+        "like": 999,
+        "coin": 27,
+        "favorite": 924,
+        "danmaku": 1,
+        "reply": 13,
+        "share": 3
+      },
+      "video_review": 1,
+      "status": "ok",
+      "source": "live",
+      "no": 5,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "玩梗有度，切莫贪杯。",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV13tofBtEH1",
+      "aid": 116469094423449,
+      "cid": 37838061920,
+      "title": "【圆桌动漫 × 喜鹊谋杀案】雅娴谋杀案仿OP制作",
+      "desc": "用纯AE自制的动画",
+      "pic": "https://i2.hdslb.com/bfs/archive/ce04a5bc3c7bc66d5281968f7078dc10c78f6573.jpg",
+      "duration": 28,
+      "length": "00:28",
+      "pubdate": 1777179600,
+      "created_str": "2026-04-26 13:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 32088,
+        "like": 382,
+        "coin": 32,
+        "favorite": 315,
+        "danmaku": 0,
+        "reply": 7,
+        "share": 2
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 6,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "用纯AE自制的动画",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1qw9aBSEJZ",
+      "aid": 116493203346893,
+      "cid": 37976280067,
+      "title": "【圆桌动漫】枯木逢春《瑶瑶喜欢我》《冰山学姐有点甜》",
+      "desc": "",
+      "pic": "https://i2.hdslb.com/bfs/archive/1fa619f7d70b774eae67ebf2d79b58103c56b9b6.jpg",
+      "duration": 11,
+      "length": "00:11",
+      "pubdate": 1777546800,
+      "created_str": "2026-04-30 19:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 782,
+        "like": 77,
+        "coin": 3,
+        "favorite": 14,
+        "danmaku": 0,
+        "reply": 9,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 7,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1Yd9eBHExn",
+      "aid": 116493522180829,
+      "cid": 37978638171,
+      "title": "凡子与锋子游于濠梁之上",
+      "desc": "",
+      "pic": "https://i0.hdslb.com/bfs/archive/ead5d7b3c9ea1730a6fd07ac385863a599d67b4b.jpg",
+      "duration": 31,
+      "length": "00:31",
+      "pubdate": 1777551600,
+      "created_str": "2026-04-30 20:20:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 1422,
+        "like": 86,
+        "coin": 3,
+        "favorite": 16,
+        "danmaku": 2,
+        "reply": 13,
+        "share": 0
+      },
+      "video_review": 2,
+      "status": "ok",
+      "source": "live",
+      "no": 8,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1cq9eBeE15",
+      "aid": 116493991812457,
+      "cid": 37982048101,
+      "title": "世有伯乐，然后有千里马",
+      "desc": "",
+      "pic": "https://i1.hdslb.com/bfs/archive/b16d20421849eab25ca97c229a83ba8f85a03b73.jpg",
+      "duration": 39,
+      "length": "00:39",
+      "pubdate": 1777557900,
+      "created_str": "2026-04-30 22:05:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 11176,
+        "like": 143,
+        "coin": 5,
+        "favorite": 67,
+        "danmaku": 6,
+        "reply": 11,
+        "share": 4
+      },
+      "video_review": 6,
+      "status": "ok",
+      "source": "live",
+      "no": 9,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1yL9qBLEfB",
+      "aid": 116496223180984,
+      "cid": 37992598443,
+      "title": "《圆桌动漫你别后悔》",
+      "desc": "",
+      "pic": "https://i1.hdslb.com/bfs/archive/3135e2bc2208fb4b79d751e203624add001f1b0a.jpg",
+      "duration": 38,
+      "length": "00:38",
+      "pubdate": 1777591800,
+      "created_str": "2026-05-01 07:30:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 5234,
+        "like": 235,
+        "coin": 6,
+        "favorite": 40,
+        "danmaku": 24,
+        "reply": 43,
+        "share": 14
+      },
+      "video_review": 24,
+      "status": "ok",
+      "source": "live",
+      "no": 10,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1uKRuBkE7C",
+      "aid": 116499863900587,
+      "cid": 38014094492,
+      "title": "【圆桌动漫】（请各位桌粉务必观看该视频）圆 · 桌 · 回 · 忆 · 录",
+      "desc": "我支持桌桌！",
+      "pic": "https://i0.hdslb.com/bfs/archive/231ec929e1b4942d335ba91b2b92c76f754186e1.jpg",
+      "duration": 4178,
+      "length": "69:38",
+      "pubdate": 1777687200,
+      "created_str": "2026-05-02 10:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 34968,
+        "like": 1500,
+        "coin": 192,
+        "favorite": 760,
+        "danmaku": 273,
+        "reply": 188,
+        "share": 33
+      },
+      "video_review": 273,
+      "status": "ok",
+      "source": "live",
+      "no": 11,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "我支持桌桌！",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1mKREBYEAU",
+      "aid": 116504695741294,
+      "cid": 38038536874,
+      "title": "【洛天依 × 圆桌动漫】《我是公孙雅柔》（我是公孙雅柔这才是瑶曦）",
+      "desc": "原词/曲：@WOVOP  \nAI翻唱：X Studio\n改编：@在瑶光中永存",
+      "pic": "https://i2.hdslb.com/bfs/archive/aa69e7e8f2debc002adcfec84c7888147fecf2aa.jpg",
+      "duration": 136,
+      "length": "02:16",
+      "pubdate": 1777723200,
+      "created_str": "2026-05-02 20:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 4324,
+        "like": 245,
+        "coin": 22,
+        "favorite": 94,
+        "danmaku": 24,
+        "reply": 56,
+        "share": 11
+      },
+      "video_review": 24,
+      "status": "ok",
+      "source": "live",
+      "no": 12,
+      "category": "VOCALOID",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方 / 改编",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原词/曲",
+          "name": "WOVOP",
+          "link": "https://space.bilibili.com/33910972"
+        },
+        {
+          "role": "原作者",
+          "name": "我是初音未来",
+          "link": "https://www.bilibili.com/video/BV1MmZ6YjEDT"
+        }
+      ],
+      "desc_display": "原词/曲：@WOVOP  \nAI翻唱：X Studio\n改编：@破軍星の終焉煌めき",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV17Q9fBcE8M",
+      "aid": 116510299264445,
+      "cid": 38062066155,
+      "title": "【圆桌动漫】（绝对高质）论真女主这一块，谁是颜值与实力并存的十大女主之最？",
+      "desc": "我能火的希望就在这个视频了！",
+      "pic": "https://i0.hdslb.com/bfs/archive/28703f061e76b6bff8463b071e337baf9952626f.jpg",
+      "duration": 72,
+      "length": "01:12",
+      "pubdate": 1777807800,
+      "created_str": "2026-05-03 19:30:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 529861,
+        "like": 34489,
+        "coin": 3465,
+        "favorite": 37806,
+        "danmaku": 490,
+        "reply": 64,
+        "share": 72
+      },
+      "video_review": 490,
+      "status": "ok",
+      "source": "live",
+      "no": 13,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "我能火的希望就在这个视频了！",
+      "featured": true,
+      "featured_order": 1,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1kKRvBqELw",
+      "aid": 116515735082999,
+      "cid": 38083822422,
+      "title": "【观前提示：请准备一袋糯米和三柄桃木剑】“笼中瑶雅笑，何时飞哟飞”",
+      "desc": "",
+      "pic": "https://i0.hdslb.com/bfs/archive/d07d87128e67140b8bdbde214ae92efa3f3f7b7f.jpg",
+      "duration": 18,
+      "length": "00:18",
+      "pubdate": 1777890000,
+      "created_str": "2026-05-04 18:20:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 729,
+        "like": 67,
+        "coin": 0,
+        "favorite": 18,
+        "danmaku": 3,
+        "reply": 49,
+        "share": 8
+      },
+      "video_review": 3,
+      "status": "ok",
+      "source": "live",
+      "no": 14,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1rERrBXExH",
+      "aid": 116520181046252,
+      "cid": 38100731286,
+      "title": "【观前提示：请准备一袋糯米和三柄桃木剑】“笼中锋，何时飞”",
+      "desc": "",
+      "pic": "https://i2.hdslb.com/bfs/archive/abd4ed78bd0008a9d26a8472d44b8c251f6336ca.jpg",
+      "duration": 18,
+      "length": "00:18",
+      "pubdate": 1777957113,
+      "created_str": "2026-05-05 12:58:33",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 361,
+        "like": 56,
+        "coin": 1,
+        "favorite": 3,
+        "danmaku": 1,
+        "reply": 22,
+        "share": 3
+      },
+      "video_review": 1,
+      "status": "ok",
+      "source": "live",
+      "no": 15,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1ZNRQBGEM6",
+      "aid": 116543904027868,
+      "cid": 38211751402,
+      "title": "【圆桌动漫】时间过得这么快啊……",
+      "desc": "",
+      "pic": "https://i0.hdslb.com/bfs/archive/f60d0439e22e1ab6c9f9ad4e6e080dd8e36241c3.jpg",
+      "duration": 23,
+      "length": "00:23",
+      "pubdate": 1778320800,
+      "created_str": "2026-05-09 18:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 20342,
+        "like": 492,
+        "coin": 36,
+        "favorite": 391,
+        "danmaku": 4,
+        "reply": 12,
+        "share": 1
+      },
+      "video_review": 4,
+      "status": "ok",
+      "source": "live",
+      "no": 16,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1Q35v6XEHa",
+      "aid": 116577911574794,
+      "cid": 38352063575,
+      "title": "已知萧凡为正比例函数，求()^2的值",
+      "desc": "",
+      "pic": "https://i0.hdslb.com/bfs/archive/18bd1bcc35850eab7daab86223d4fc67e0500029.jpg",
+      "duration": 181,
+      "length": "03:01",
+      "pubdate": 1778839200,
+      "created_str": "2026-05-15 18:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 9611,
+        "like": 119,
+        "coin": 2,
+        "favorite": 61,
+        "danmaku": 0,
+        "reply": 8,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 17,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1145q6nEke",
+      "aid": 116578314230528,
+      "cid": 38355206573,
+      "title": "【圆桌动漫】赐我一场相爱，怎么你又匆匆地离开",
+      "desc": "",
+      "pic": "https://i1.hdslb.com/bfs/archive/fa6f3fd60974adea0b9ab59fd59d7b1f34af16e0.jpg",
+      "duration": 90,
+      "length": "01:30",
+      "pubdate": 1778844600,
+      "created_str": "2026-05-15 19:30:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 2608,
+        "like": 196,
+        "coin": 14,
+        "favorite": 122,
+        "danmaku": 1,
+        "reply": 15,
+        "share": 7
+      },
+      "video_review": 1,
+      "status": "ok",
+      "source": "live",
+      "no": 18,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1jP5q6KE3k",
+      "aid": 116578565758796,
+      "cid": 38356714506,
+      "title": "以前的圆桌vs现在的圆桌",
+      "desc": "",
+      "pic": "https://i0.hdslb.com/bfs/archive/1dc77cdddd3100051b0e77f179561b12e7d3ca67.jpg",
+      "duration": 86,
+      "length": "01:26",
+      "pubdate": 1778848200,
+      "created_str": "2026-05-15 20:30:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 433479,
+        "like": 7257,
+        "coin": 269,
+        "favorite": 4009,
+        "danmaku": 116,
+        "reply": 111,
+        "share": 58
+      },
+      "video_review": 116,
+      "status": "ok",
+      "source": "live",
+      "no": 19,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1V35q6hETj",
+      "aid": 116578817414785,
+      "cid": 38358286356,
+      "title": "【圆桌动漫】瑶瑶党和人民需要你！",
+      "desc": "",
+      "pic": "https://i1.hdslb.com/bfs/archive/6cc7b63c33d36d3f8fe0f51187156ada374fd75d.jpg",
+      "duration": 118,
+      "length": "01:58",
+      "pubdate": 1778852700,
+      "created_str": "2026-05-15 21:45:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 20131,
+        "like": 158,
+        "coin": 4,
+        "favorite": 32,
+        "danmaku": 8,
+        "reply": 13,
+        "share": 1
+      },
+      "video_review": 8,
+      "status": "ok",
+      "source": "live",
+      "no": 20,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1upLV6fEfN",
+      "aid": 116585779960576,
+      "cid": 38388043075,
+      "title": "【雅柔生贺作品/圆桌动漫/填词/西蒙海耶】HEAVENLY JUMPSTYLE（双面帝王特供版）暨·雅柔生日快乐",
+      "desc": "素材来源：@圆桌动漫 \n视频制作/调音：@永存瑶光_烛照周天 \n曲：@夏玔瑶辉 /John Kell\n词：@永存瑶光_烛照周天 \n特别鸣谢：@夏玔瑶辉 @xt喜糖 @圆桌动漫 \n原曲：HEAVENLY JUMPSTYLE",
+      "pic": "https://i1.hdslb.com/bfs/archive/89783038ee811a5747e734764b8aa741ea1861c9.jpg",
+      "duration": 113,
+      "length": "01:53",
+      "pubdate": 1778972400,
+      "created_str": "2026-05-17 07:00:00",
+      "owner": {
+        "mid": 675059275,
+        "name": "夏玔瑶辉",
+        "face": "https://i1.hdslb.com/bfs/face/dbd6c5685aba486715694ec732d3e9942338bfa9.jpg"
+      },
+      "staff": [
+        {
+          "mid": 675059275,
+          "name": "夏玔瑶辉",
+          "title": "UP主",
+          "face": "https://i1.hdslb.com/bfs/face/dbd6c5685aba486715694ec732d3e9942338bfa9.jpg"
+        },
+        {
+          "mid": 1016873598,
+          "name": "破軍星の終焉煌めき",
+          "title": "视频制作",
+          "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+        }
+      ],
+      "copyright": 3,
+      "stat": {
+        "view": 24408,
+        "like": 1599,
+        "coin": 120,
+        "favorite": 1448,
+        "danmaku": 2,
+        "reply": 39,
+        "share": 13
+      },
+      "video_review": 2,
+      "status": "ok",
+      "source": "live",
+      "no": 21,
+      "category": "二创剪辑",
+      "participation": "代投 · 填词/视频制作/策划",
+      "credits": [
+        {
+          "role": "视频制作 / 调音 / 词 / 策划",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "投稿方",
+          "name": "夏玔瑶辉",
+          "link": "https://space.bilibili.com/675059275"
+        },
+        {
+          "role": "素材来源",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        },
+        {
+          "role": "曲",
+          "name": "夏玔瑶辉",
+          "link": "https://space.bilibili.com/675059275"
+        },
+        {
+          "role": "鸣谢",
+          "name": "夏玔瑶辉",
+          "link": "https://space.bilibili.com/675059275"
+        },
+        {
+          "role": "鸣谢",
+          "name": "xt喜糖",
+          "link": "https://space.bilibili.com/3493145937447264"
+        },
+        {
+          "role": "鸣谢",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        },
+        {
+          "role": "曲",
+          "name": "John Kell"
+        },
+        {
+          "role": "原曲",
+          "name": "HEAVENLY JUMPSTYLE"
+        }
+      ],
+      "desc_display": "素材来源：@圆桌动漫 \n视频制作/调音：@破軍星の終焉煌めき \n曲：@夏玔瑶辉 /John Kell\n词：@破軍星の終焉煌めき \n特别鸣谢：@夏玔瑶辉 @xt喜糖 @圆桌动漫 \n原曲：HEAVENLY JUMPSTYLE",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV113Gt6QEQ4",
+      "aid": 116617572785061,
+      "cid": 38526978930,
+      "title": "《LOVE IS GONE》",
+      "desc": "",
+      "pic": "https://i1.hdslb.com/bfs/archive/2bc8f2a14944006a2294abdb66255a758642e2a7.jpg",
+      "duration": 68,
+      "length": "01:08",
+      "pubdate": 1779444000,
+      "created_str": "2026-05-22 18:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 1573,
+        "like": 50,
+        "coin": 4,
+        "favorite": 5,
+        "danmaku": 0,
+        "reply": 7,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 22,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1e5En6FEWf",
+      "aid": 116703304554152,
+      "cid": 38911414158,
+      "title": "[MIKU/洛天依&WOVOP&圆桌动漫]我是千本未柔（我是初音未来+千本桜+圆桌动漫）",
+      "desc": "某人发现这两首歌很合适。 。 。 。 。  。\n作编曲：《千本桜》黑兔P BV1sM4y1V7x1\n作词：《我是初音未来》 BV1MmZ6YjEDT\n@WOVOP  （原）&@破軍星の終焉煌めき  （改）\nPV：《千本桜》&@破軍星の終焉煌めき  [WOVOP提供技术指导（划掉）]\n调教（瞎调）：@破軍星の終焉煌めき  \n混音（瞎混）：@破軍星の終焉煌めき  \n歌唱：初音未来V4C+洛天依V5凝\n最后的和声：洛天依+言和+乐正绫\n编辑器：YAMAHA VOCALOID6.4.2",
+      "pic": "https://i1.hdslb.com/bfs/archive/50a45cd45ef93b96da47bbdba459f7a99329b2d9.jpg",
+      "duration": 241,
+      "length": "04:01",
+      "pubdate": 1780752000,
+      "created_str": "2026-06-06 21:20:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 395,
+        "like": 52,
+        "coin": 0,
+        "favorite": 5,
+        "danmaku": 5,
+        "reply": 10,
+        "share": 1
+      },
+      "video_review": 5,
+      "status": "ok",
+      "source": "live",
+      "no": 23,
+      "category": "VOCALOID",
+      "participation": "调教/混音",
+      "credits": [
+        {
+          "role": "投稿方 / PV / 调教（瞎调） / 混音（瞎混）",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原词",
+          "name": "WOVOP",
+          "link": "https://space.bilibili.com/33910972"
+        },
+        {
+          "role": "本家1",
+          "name": "我是初音未来",
+          "link": "https://www.bilibili.com/video/BV1MmZ6YjEDT"
+        },
+        {
+          "role": "本家2",
+          "name": "千本桜",
+          "link": "https://www.youtube.com/watch?v=shs0rAiwsGQ"
+        },
+        {
+          "role": "人物形象",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "某人发现这两首歌很合适。 。 。 。 。  。\n作编曲：《千本桜》黑兔P BV1sM4y1V7x1\n作词：《我是初音未来》 BV1MmZ6YjEDT\n@WOVOP  （原）&@破軍星の終焉煌めき  （改）\nPV：《千本桜》&@破軍星の終焉煌めき  [WOVOP提供技术指导（划掉）]\n调教（瞎调）：@破軍星の終焉煌めき  \n混音（瞎混）：@破軍星の終焉煌めき  \n歌唱：初音未来V4C+洛天依V5凝\n最后的和声：洛天依+言和+乐正绫\n编辑器：YAMAHA VOCALOID6.4.2",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1GMEt6jE4E",
+      "aid": 116707297336925,
+      "cid": 38927073584,
+      "title": "【圆桌动漫】拼接属于萧凡和瑶曦的遗憾",
+      "desc": "",
+      "pic": "https://i1.hdslb.com/bfs/archive/8efa6c0ca239ac01c64320b5ed131c576b70f34e.jpg",
+      "duration": 99,
+      "length": "01:39",
+      "pubdate": 1780812137,
+      "created_str": "2026-06-07 14:02:17",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 2372,
+        "like": 307,
+        "coin": 28,
+        "favorite": 101,
+        "danmaku": 107,
+        "reply": 29,
+        "share": 5
+      },
+      "video_review": 107,
+      "status": "ok",
+      "source": "live",
+      "no": 24,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1P2jq6sE2b",
+      "aid": 116775027020981,
+      "cid": 39232868207,
+      "title": "【圆桌动漫&ilem】《念萧师》（萧凡老师我还记得你一句一句把我拉进坟墓里）+《白鸟过河滩》",
+      "desc": "原曲《念张师》“张雪峰老师 我还记得你.”|《念张师》2.0x 氦气版_哔哩哔哩_bilibili\n洛天依&ilem---《白鸟过河滩》洛天依 原创《白鸟过河滩》_哔哩哔哩_bilibili\n（尾奏比这个更悲伤）\n我是一个用最烂的剪辑技术剪出我和徒弟的人……",
+      "pic": "https://i1.hdslb.com/bfs/archive/a96d67826e2b0e0ba33925257ede9428f7a1c241.jpg",
+      "duration": 95,
+      "length": "01:35",
+      "pubdate": 1781845777,
+      "created_str": "2026-06-19 13:09:37",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 1266,
+        "like": 82,
+        "coin": 0,
+        "favorite": 12,
+        "danmaku": 56,
+        "reply": 23,
+        "share": 5
+      },
+      "video_review": 56,
+      "status": "ok",
+      "source": "live",
+      "no": 25,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "原曲《念张师》“张雪峰老师 我还记得你.”|《念张师》2.0x 氦气版_哔哩哔哩_bilibili\n洛天依&ilem---《白鸟过河滩》洛天依 原创《白鸟过河滩》_哔哩哔哩_bilibili\n（尾奏比这个更悲伤）\n我是一个用最烂的剪辑技术剪出我和徒弟的人……",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1w8ji67EGN",
+      "aid": 116775798838278,
+      "cid": 39237323642,
+      "title": "【圆桌动漫】瑶来！瑶来！妈咪妈咪哄！（）",
+      "desc": "",
+      "pic": "https://i0.hdslb.com/bfs/archive/cdfba544b05692c77d0db509d67e1b0de8530f81.jpg",
+      "duration": 15,
+      "length": "00:15",
+      "pubdate": 1781857302,
+      "created_str": "2026-06-19 16:21:42",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 952,
+        "like": 82,
+        "coin": 4,
+        "favorite": 8,
+        "danmaku": 0,
+        "reply": 12,
+        "share": 1
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 26,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV19DTx6UE2p",
+      "aid": 116856379677243,
+      "cid": 39625228852,
+      "title": "天道先生（阴阳先生翻填）.ft重音teto&星尘infinity",
+      "desc": "本家：BV1tx411A71m by--ilem&洛天依&言和\n填词：我\n调校：我\n人声：重音teto&星尘\n故事背景：圆桌动漫《七只魔女》傲慢~怠惰篇",
+      "pic": "https://i2.hdslb.com/bfs/archive/5f2cf687bf09314eafccf4ecb9142034996e4171.jpg",
+      "duration": 211,
+      "length": "03:31",
+      "pubdate": 1783086922,
+      "created_str": "2026-07-03 21:55:22",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 676,
+        "like": 113,
+        "coin": 5,
+        "favorite": 23,
+        "danmaku": 28,
+        "reply": 14,
+        "share": 0
+      },
+      "video_review": 28,
+      "status": "ok",
+      "source": "live",
+      "no": 27,
+      "category": "VOCALOID",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        },
+        {
+          "role": "原词/曲",
+          "name": "ilem",
+          "link": "https://space.bilibili.com/3379951"
+        },
+        {
+          "role": "原作者",
+          "name": "白鸟过河滩",
+          "link": "https://www.bilibili.com/video/BV1wT4y1k7Pw"
+        }
+      ],
+      "desc_display": "本家：BV1tx411A71m by--ilem&洛天依&言和\n填词：我\n调校：我\n人声：重音teto&星尘\n故事背景：圆桌动漫《七只魔女》傲慢~怠惰篇",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1TmMG6MEXs",
+      "aid": 116884800282137,
+      "cid": 39793854901,
+      "title": "【圆桌动漫】瑶曦：爹系男友喜欢吗？",
+      "desc": "视频已换源",
+      "pic": "https://i2.hdslb.com/bfs/archive/e7d5583ab47f823b8536e636781c508f61a5c320.jpg",
+      "duration": 42,
+      "length": "00:42",
+      "pubdate": 1783520565,
+      "created_str": "2026-07-08 22:22:45",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 4428,
+        "like": 291,
+        "coin": 6,
+        "favorite": 65,
+        "danmaku": 215,
+        "reply": 39,
+        "share": 8
+      },
+      "video_review": 215,
+      "status": "ok",
+      "source": "live",
+      "no": 28,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "视频已换源",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1U2Nx6vETv",
+      "aid": 116900285782799,
+      "cid": 39847854600,
+      "title": "勾指起誓（圆桌动漫）",
+      "desc": "误删重投",
+      "pic": "https://i1.hdslb.com/bfs/archive/092a2e01094c306299745d9d9e3fdc6e44a007d5.jpg",
+      "duration": 69,
+      "length": "01:09",
+      "pubdate": 1783756832,
+      "created_str": "2026-07-11 16:00:32",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 851,
+        "like": 116,
+        "coin": 5,
+        "favorite": 14,
+        "danmaku": 0,
+        "reply": 15,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 29,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "ilem",
+          "link": "https://space.bilibili.com/3379951"
+        }
+      ],
+      "desc_display": "误删重投",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV15tNy6hE5S",
+      "aid": 116912029832591,
+      "cid": 39910376372,
+      "title": "⚡️眼睛瞎在瑶曦上⚡️",
+      "desc": "",
+      "pic": "https://i2.hdslb.com/bfs/archive/6ae858cb8b8d9c74201e22aa22c895d928834338.jpg",
+      "duration": 47,
+      "length": "00:47",
+      "pubdate": 1783936189,
+      "created_str": "2026-07-13 17:49:49",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 2093,
+        "like": 254,
+        "coin": 11,
+        "favorite": 56,
+        "danmaku": 106,
+        "reply": 34,
+        "share": 12
+      },
+      "video_review": 106,
+      "status": "ok",
+      "source": "live",
+      "no": 30,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1gB3b6FEew",
+      "aid": 117009371109167,
+      "cid": 40447706200,
+      "title": "（超燃剪辑）【圆桌动漫/萧凡/雅柔】二拜天地",
+      "desc": "将就看吧",
+      "pic": "https://i0.hdslb.com/bfs/archive/ebd9e9399fff1ac5502650c30ccdc88e2f901d17.jpg",
+      "duration": 31,
+      "length": "00:31",
+      "pubdate": 1785421395,
+      "created_str": "2026-07-30 22:23:15",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 743,
+        "like": 114,
+        "coin": 9,
+        "favorite": 22,
+        "danmaku": 16,
+        "reply": 16,
+        "share": 3
+      },
+      "video_review": 16,
+      "status": "ok",
+      "source": "live",
+      "no": 31,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "将就看吧",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1H9Gc6uEY7",
+      "aid": 117012206524118,
+      "cid": 40458260439,
+      "title": "【圆桌动漫】四重罪孽REPV前奏",
+      "desc": "找找里面的细节",
+      "pic": "https://i0.hdslb.com/bfs/archive/0f34596ba00ffc56edf2a77b28015b7f07be90d6.jpg",
+      "duration": 21,
+      "length": "00:21",
+      "pubdate": 1785464813,
+      "created_str": "2026-07-31 10:26:53",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 316,
+        "like": 47,
+        "coin": 1,
+        "favorite": 6,
+        "danmaku": 9,
+        "reply": 4,
+        "share": 2
+      },
+      "video_review": 9,
+      "status": "ok",
+      "source": "live",
+      "no": 32,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "人物形象",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        },
+        {
+          "role": "原作者",
+          "name": "四重罪孽",
+          "link": "https://www.bilibili.com/video/BV1us411X7hb"
+        }
+      ],
+      "desc_display": "找找里面的细节",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1xDMy6xExu",
+      "aid": 117042455844692,
+      "cid": 40621378602,
+      "title": "【圆桌论破】黑白之夜卷·第一章：暴雨来临前的大风",
+      "desc": "灵感来源：弹丸论破（不完全相同）\n部分仿：术曲论破@新不理鲁德多",
+      "pic": "https://i2.hdslb.com/bfs/archive/d9364630a4e904acf755faad35d0298650ad604b.jpg",
+      "duration": 158,
+      "length": "02:38",
+      "pubdate": 1785926248,
+      "created_str": "2026-08-05 18:37:28",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 1923,
+        "like": 133,
+        "coin": 6,
+        "favorite": 43,
+        "danmaku": 6,
+        "reply": 20,
+        "share": 1
+      },
+      "video_review": 6,
+      "status": "ok",
+      "source": "live",
+      "no": 33,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "部分仿",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        },
+        {
+          "role": "鸣谢",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "灵感来源：弹丸论破（不完全相同）\n部分仿：术曲论破@新不理鲁德多",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1aXuB69EoH",
+      "aid": 117077285412556,
+      "cid": 40818051987,
+      "title": "【圆桌论破】OP主题曲《Never Say Never》",
+      "desc": "请支持@新不理鲁德多",
+      "pic": "https://i1.hdslb.com/bfs/archive/b12b7730a2b7b352c48112fa5142c8d3ccfd2ed0.jpg",
+      "duration": 91,
+      "length": "01:31",
+      "pubdate": 1786457825,
+      "created_str": "2026-08-11 22:17:05",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 28648,
+        "like": 1270,
+        "coin": 72,
+        "favorite": 1071,
+        "danmaku": 102,
+        "reply": 53,
+        "share": 5
+      },
+      "video_review": 102,
+      "status": "ok",
+      "source": "live",
+      "no": 34,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        },
+        {
+          "role": "鸣谢",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "请支持@新不理鲁德多",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV15fbR6pE7H",
+      "aid": 117105705882716,
+      "cid": 42163570712,
+      "title": "【重音テト&初音ミク(？)/超绝中文填词！】催眠术 ||请接收我为这个世界最后的浮华 一比一复刻的人生必胜法【サツキ】",
+      "desc": "Original:Mesmerizer BV15J4m1A7qy byサツキ\nVocal:重音テト&初音ミク（CV：星塵インフィニティ）\nTuring/Lyric:破軍星の终焉煌めき\nMix:@咕咕札  \nUST:アトリ科ヒワ属ゲン（Website:bowlroll/file/317762）\nEditor:SynthesizerVStudio\nLyric:\n《催眠术》\n精密确证无须思考\n何必去费劲驳倒\n迷雾中真相戴上层层虚伪面罩\n一刻不能为此哀悼\n炸弹引爆无预告\n体面丢掉绝望狂号\n对于被迫卷入风波的你\n逃避才是苟活唯一真理\n如果落入甜美陷阱里面\n是否能造访神话中极乐之地\n在这个虚幻混沌世界中\n理智只能证明伪命题\n装作懵懂而无理无智\n不就是让最高胜利触手可及\n谎言重复一千次粉饰的花朵\n真相隐没三万里将心灵予夺\n邀请您来参与美好的时刻\n将一切泼洒成红色\n请接收我为这个世界最后的浮华\n一比一复刻的人生必胜法\n在戏剧中隐秘恣意欺诈\n焦虑不安连续不断自问自答\n残余机会从未出现的话\n全身的耐久性持续地下滑\n眼前空白的回忆染上颜色\n才能全力活着\n可是谁才能拯救我啊\n圆顶的帽子\n桌上的橡皮\n伦敦的柠檬\n破坏基因的磷酸核糖氨基咪唑羧化酶\n你慢慢开始感到困倦\n无效催眠术快将你催眠\n闭上双眼已沧海桑田\n难道这一切全都是欺骗\n眼前的绚乱聚拢如霾烟\n身体控制权早已经沦陷\n这样就好这样就好\n大脑放空放弃思考\n你慢慢开始感到困倦\n无效催眠术快将你催眠\n闭上双眼已沧海桑田\n难道这一切全都是欺骗\n眼前的绚乱聚拢如霾烟\n身体控制权早已经沦陷\n全力以赴得以今天逃脱\n虽未有回报仍旧渴求存活\n坠入循环中自我套上枷锁\n迟钝瞬间闪烁占据路径逃脱\n希望和命运顷刻间湮没\n没有最坏情况现实已日落\n虚无的东西本不属于我\n用最后的价值拼命放手一搏请看\n我为这个时代最后的浮华（ﾎﾒﾎｪﾕ篋ｱｴ晙鋓ﾄｸ｡ｻｪ）\n一比一复刻的人生必胜法（ﾒｻｱﾈﾒｻｸｴｿﾌｵﾄﾈﾋﾉ﨑ﾘﾊ､ｷｨ）\n在戏剧中隐秘恣意欺诈（ﾔﾚﾏｷｾ釉ﾐﾒﾃﾘ愑ﾒ簇ﾛﾕｩ）\n焦虑不安连续不断自问自答（ｽｹﾂﾇｲｻｰｲﾁｬﾐｻｶﾏﾗﾔﾎﾊﾗﾔｴ・）\n奉承的谎话已无法到达\n虚假领袖尊严立刻被轰塌\n如果过度直视现实的惩罚\n就是意念被抹杀\n所以适可而止吧",
+      "pic": "https://i0.hdslb.com/bfs/archive/26f558ad11337b4cc93f9bf83342a1e1f37b439a.jpg",
+      "duration": 159,
+      "length": "02:39",
+      "pubdate": 1786932000,
+      "created_str": "2026-08-17 10:00:00",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 6486,
+        "like": 407,
+        "coin": 62,
+        "favorite": 220,
+        "danmaku": 140,
+        "reply": 34,
+        "share": 13
+      },
+      "video_review": 140,
+      "status": "ok",
+      "source": "live",
+      "no": 35,
+      "category": "VOCALOID",
+      "participation": "中文填词/调教",
+      "credits": [
+        {
+          "role": "投稿方 / Lyrics / Tuning",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "Mix",
+          "name": "咕咕札",
+          "link": "https://space.bilibili.com/3632306401052727"
+        },
+        {
+          "role": "Original",
+          "name": "サツキ",
+          "link": "https://www.bilibili.com/video/BV15J4m1A7qy"
+        },
+        {
+          "role": "Vocal",
+          "name": "重音テト & 初音ミク（CV：星塵インフィニティ）"
+        },
+        {
+          "role": "UST",
+          "name": "アトリ科ヒワ属ゲン",
+          "link": "https://bowlroll.net/user/317762"
+        },
+        {
+          "role": "Editor",
+          "name": "SynthesizerV Studio"
+        }
+      ],
+      "desc_display": "Original:Mesmerizer BV15J4m1A7qy byサツキ\nVocal:重音テト&初音ミク（CV：星塵インフィニティ）\nTuring/Lyric:破軍星の終焉煌めき\nMix:@咕咕札  \nUST:アトリ科ヒワ属ゲン（Website:bowlroll/file/317762）\nEditor:SynthesizerVStudio\nLyric:\n《催眠术》\n精密确证无须思考\n何必去费劲驳倒\n迷雾中真相戴上层层虚伪面罩\n一刻不能为此哀悼\n炸弹引爆无预告\n体面丢掉绝望狂号\n对于被迫卷入风波的你\n逃避才是苟活唯一真理\n如果落入甜美陷阱里面\n是否能造访神话中极乐之地\n在这个虚幻混沌世界中\n理智只能证明伪命题\n装作懵懂而无理无智\n不就是让最高胜利触手可及\n谎言重复一千次粉饰的花朵\n真相隐没三万里将心灵予夺\n邀请您来参与美好的时刻\n将一切泼洒成红色\n请接收我为这个世界最后的浮华\n一比一复刻的人生必胜法\n在戏剧中隐秘恣意欺诈\n焦虑不安连续不断自问自答\n残余机会从未出现的话\n全身的耐久性持续地下滑\n眼前空白的回忆染上颜色\n才能全力活着\n可是谁才能拯救我啊\n圆顶的帽子\n桌上的橡皮\n伦敦的柠檬\n破坏基因的磷酸核糖氨基咪唑羧化酶\n你慢慢开始感到困倦\n无效催眠术快将你催眠\n闭上双眼已沧海桑田\n难道这一切全都是欺骗\n眼前的绚乱聚拢如霾烟\n身体控制权早已经沦陷\n这样就好这样就好\n大脑放空放弃思考\n你慢慢开始感到困倦\n无效催眠术快将你催眠\n闭上双眼已沧海桑田\n难道这一切全都是欺骗\n眼前的绚乱聚拢如霾烟\n身体控制权早已经沦陷\n全力以赴得以今天逃脱\n虽未有回报仍旧渴求存活\n坠入循环中自我套上枷锁\n迟钝瞬间闪烁占据路径逃脱\n希望和命运顷刻间湮没\n没有最坏情况现实已日落\n虚无的东西本不属于我\n用最后的价值拼命放手一搏请看\n我为这个时代最后的浮华（ﾎﾒﾎｪﾕ篋ｱｴ晙鋓ﾄｸ｡ｻｪ）\n一比一复刻的人生必胜法（ﾒｻｱﾈﾒｻｸｴｿﾌｵﾄﾈﾋﾉ﨑ﾘﾊ､ｷｨ）\n在戏剧中隐秘恣意欺诈（ﾔﾚﾏｷｾ釉ﾐﾒﾃﾘ愑ﾒ簇ﾛﾕｩ）\n焦虑不安连续不断自问自答（ｽｹﾂﾇｲｻｰｲﾁｬﾐｻｶﾏﾗﾔﾎﾊﾗﾔｴ・）\n奉承的谎话已无法到达\n虚假领袖尊严立刻被轰塌\n如果过度直视现实的惩罚\n就是意念被抹杀\n所以适可而止吧",
+      "featured": true,
+      "featured_order": 2,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1q3hA6nEnz",
+      "aid": 117165717982389,
+      "cid": 41314225427,
+      "title": "【弹丸论破vocaloid】第四章学籍裁判（下）",
+      "desc": "这几天终于把正片都做完了，画师正在画处刑，之后会单独发出，但具体什么时候我们也不知道\n我明天就要去军训了，以后也不知道能不能更新呜呜呜",
+      "pic": "https://i1.hdslb.com/bfs/archive/4f5aa570aa22d5795f1f66f223241b754e25804c.jpg",
+      "duration": 571,
+      "length": "09:31",
+      "pubdate": 1787808600,
+      "created_str": "2026-08-27 13:30:00",
+      "owner": {
+        "mid": 1753688514,
+        "name": "新不理鲁德多",
+        "face": "https://i0.hdslb.com/bfs/face/1538550e80d9bbdb03ac48cbaf780ae4302d489d.jpg"
+      },
+      "staff": [
+        {
+          "mid": 1753688514,
+          "name": "新不理鲁德多",
+          "title": "UP主",
+          "face": "https://i0.hdslb.com/bfs/face/1538550e80d9bbdb03ac48cbaf780ae4302d489d.jpg"
+        },
+        {
+          "mid": 3263335,
+          "name": "复方砂糖",
+          "title": "设计",
+          "face": "https://i1.hdslb.com/bfs/face/138443596f5b7c51f10990517df6f4bbb561ce15.jpg"
+        },
+        {
+          "mid": 3546733619448504,
+          "name": "捕食ひ捕食",
+          "title": "策划",
+          "face": "https://i0.hdslb.com/bfs/face/0c45b29696fe3e33ebc799cdd9bfa4dc658b357e.jpg"
+        },
+        {
+          "mid": 3494363061553428,
+          "name": "曲谱新乐奏华苍",
+          "title": "策划",
+          "face": "https://i0.hdslb.com/bfs/face/38ae9f173aacbb92ab38dd79218b27591a954f0c.jpg"
+        },
+        {
+          "mid": 1016873598,
+          "name": "破軍星の終焉煌めき",
+          "title": "视频制作",
+          "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+        },
+        {
+          "mid": 3493293539199623,
+          "name": "远糖牢帝",
+          "title": "设计",
+          "face": "https://i2.hdslb.com/bfs/face/a41aee9c23dbe3bb214edcfb62848607e0261491.jpg"
+        }
+      ],
+      "copyright": 1,
+      "stat": {
+        "view": 361564,
+        "like": 9188,
+        "coin": 1040,
+        "favorite": 7249,
+        "danmaku": 2719,
+        "reply": 1221,
+        "share": 88
+      },
+      "video_review": 2719,
+      "status": "ok",
+      "source": "live",
+      "no": 36,
+      "category": "二创剪辑",
+      "participation": "视频制作",
+      "credits": [
+        {
+          "role": "视频制作",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "投稿方",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        },
+        {
+          "role": "设计",
+          "name": "复方砂糖",
+          "link": "https://space.bilibili.com/3263335"
+        },
+        {
+          "role": "策划",
+          "name": "捕食ひ捕食",
+          "link": "https://space.bilibili.com/3546733619448504"
+        },
+        {
+          "role": "策划",
+          "name": "曲谱新乐奏华苍",
+          "link": "https://space.bilibili.com/3494363061553428"
+        },
+        {
+          "role": "设计",
+          "name": "远糖牢帝",
+          "link": "https://space.bilibili.com/3493293539199623"
+        }
+      ],
+      "desc_display": "这几天终于把正片都做完了，画师正在画处刑，之后会单独发出，但具体什么时候我们也不知道\n我明天就要去军训了，以后也不知道能不能更新呜呜呜",
+      "featured": true,
+      "featured_order": 3,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1xZhw6cEKT",
+      "aid": 117165936221460,
+      "cid": 41315731780,
+      "title": "【弹丸论破vocaloid】仿弹丸论破风格||转生苹果&爱属性的反论对决",
+      "desc": "@新不理鲁德多  的反论对决",
+      "pic": "https://i1.hdslb.com/bfs/archive/adc96df55c97b92681b74fe70c03655a2b6b3e87.jpg",
+      "duration": 34,
+      "length": "00:34",
+      "pubdate": 1787810339,
+      "created_str": "2026-08-27 13:58:59",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 4306,
+        "like": 171,
+        "coin": 14,
+        "favorite": 56,
+        "danmaku": 1,
+        "reply": 35,
+        "share": 0
+      },
+      "video_review": 1,
+      "status": "ok",
+      "source": "live",
+      "no": 37,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "@新不理鲁德多  的反论对决",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1Lf4y6REZR",
+      "aid": 117177663363170,
+      "cid": 42163439994,
+      "title": "【圆桌论破】第一案·第二章：漆黑夜幕下的诡秘",
+      "desc": "指路/鸣谢：@新不理鲁德多  \n制作人：我",
+      "pic": "https://i0.hdslb.com/bfs/archive/62224e5de3afdfb68e0ed003c00938f109929579.jpg",
+      "duration": 547,
+      "length": "09:07",
+      "pubdate": 1787989364,
+      "created_str": "2026-08-29 15:42:44",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 2346,
+        "like": 140,
+        "coin": 21,
+        "favorite": 57,
+        "danmaku": 93,
+        "reply": 26,
+        "share": 1
+      },
+      "video_review": 93,
+      "status": "ok",
+      "source": "live",
+      "no": 38,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "指路/鸣谢",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "指路/鸣谢：@新不理鲁德多  \n制作人：我",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1QEt269EzL",
+      "aid": 117218180405896,
+      "cid": 41609921112,
+      "title": "MIKU'S REBIRTH【bilibilionly同人扶持计划】",
+      "desc": "@我bilibilionly投了  \nMIKU生日快乐",
+      "pic": "https://i0.hdslb.com/bfs/archive/81f73694b24496529460b704ddc551713bda47d4.jpg",
+      "duration": 64,
+      "length": "01:04",
+      "pubdate": 1788607647,
+      "created_str": "2026-09-05 19:27:27",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [
+        {
+          "mid": 1016873598,
+          "name": "破軍星の終焉煌めき",
+          "title": "UP主",
+          "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+        },
+        {
+          "mid": 3707010312833870,
+          "name": "Hagunseishn_Krmk",
+          "title": "剪辑",
+          "face": "https://i2.hdslb.com/bfs/face/8ed81e40955e0ae0069c651f87ff172a24dcc1b1.jpg"
+        }
+      ],
+      "copyright": 3,
+      "stat": {
+        "view": 351,
+        "like": 75,
+        "coin": 2,
+        "favorite": 14,
+        "danmaku": 0,
+        "reply": 6,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 39,
+      "category": "二创剪辑",
+      "participation": "联合投稿（剪辑）",
+      "credits": [
+        {
+          "role": "投稿方 / 剪辑",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "@我bilibilionly投了  \nMIKU生日快乐",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1tsYR6nE6x",
+      "aid": 117258546385184,
+      "cid": 41831500834,
+      "title": "【圆桌论破】（超级文本量）黑白之夜卷·第一案·第三章·搜查篇--席卷管理所的风暴式搜查—“门”【弹丸论破二创】【圆桌动漫】",
+      "desc": "因视频过长未添加OP与ED，剧本约5500字，制作全耗时18小时，让我再火一次吧\n范楚时是不是有一个外号叫镜音铃？（\n------------------\n“\t管理所的门从来都不是单纯的门。\n\t有人拉开它，尸体便从天花板坠落；有人看见它，以为那一刻便是死亡的开始。\n\t可门外的脚印会消失，门后的声音会骗人，绳结可以重新缠绕，连时间都能被人故意推迟。\n\t一场精心安排的死亡，就这样把所有人的视线引向错误的方向。\n\t而真正藏在黑暗中的那只手，至今没有伸出来。\n\t审判尚未开始。\n\t但属于真相的第一根线，已经被悄悄扯紧。”\n\n制作人：破軍星の終焉煌めき\n配音：电波声\n尸体发现图画师：@小瑶不会剪  \n鸣谢：@新不理鲁德多",
+      "pic": "https://i1.hdslb.com/bfs/archive/6aef8e5f03b67dae741320c818b2fc340a207ffc.jpg",
+      "duration": 511,
+      "length": "08:31",
+      "pubdate": 1789223841,
+      "created_str": "2026-09-12 22:37:21",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [
+        {
+          "mid": 1016873598,
+          "name": "破軍星の終焉煌めき",
+          "title": "UP主",
+          "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+        },
+        {
+          "mid": 3546772880230998,
+          "name": "小瑶不会剪",
+          "title": "设计",
+          "face": "https://i0.hdslb.com/bfs/face/eb92f0a2896e3eb2d00b79472d02189b980a6942.jpg"
+        },
+        {
+          "mid": 3707010312833870,
+          "name": "Hagunseishn_Krmk",
+          "title": "编剧",
+          "face": "https://i2.hdslb.com/bfs/face/8ed81e40955e0ae0069c651f87ff172a24dcc1b1.jpg"
+        }
+      ],
+      "copyright": 1,
+      "stat": {
+        "view": 6333,
+        "like": 158,
+        "coin": 15,
+        "favorite": 106,
+        "danmaku": 26,
+        "reply": 16,
+        "share": 2
+      },
+      "video_review": 26,
+      "status": "ok",
+      "source": "live",
+      "no": 40,
+      "category": "二创剪辑",
+      "participation": "联合投稿（编剧）",
+      "credits": [
+        {
+          "role": "投稿方 / 编剧",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "设计",
+          "name": "小瑶不会剪",
+          "link": "https://space.bilibili.com/3546772880230998"
+        },
+        {
+          "role": "尸体发现图画师",
+          "name": "小瑶不会剪"
+        },
+        {
+          "role": "鸣谢",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "因视频过长未添加OP与ED，剧本约5500字，制作全耗时18小时，让我再火一次吧\n范楚时是不是有一个外号叫镜音铃？（\n------------------\n“\t管理所的门从来都不是单纯的门。\n\t有人拉开它，尸体便从天花板坠落；有人看见它，以为那一刻便是死亡的开始。\n\t可门外的脚印会消失，门后的声音会骗人，绳结可以重新缠绕，连时间都能被人故意推迟。\n\t一场精心安排的死亡，就这样把所有人的视线引向错误的方向。\n\t而真正藏在黑暗中的那只手，至今没有伸出来。\n\t审判尚未开始。\n\t但属于真相的第一根线，已经被悄悄扯紧。”\n\n制作人：破軍星の終焉煌めき\n配音：电波声\n尸体发现图画师：@小瑶不会剪  \n鸣谢：@新不理鲁德多",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1bKab6CE4F",
+      "aid": 117341341881695,
+      "cid": 42240377455,
+      "title": "【弹丸论破vocaloid/原创PV】脑浆炸裂少女-术曲论破宣传PV（部分）",
+      "desc": "原作：@新不理鲁德多  \n动画：我",
+      "pic": "https://i0.hdslb.com/bfs/archive/106125a6d5fd157f00a43381628a77c7b54c8d8a.jpg",
+      "duration": 20,
+      "length": "00:20",
+      "pubdate": 1790486895,
+      "created_str": "2026-09-27 13:28:15",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 7819,
+        "like": 547,
+        "coin": 87,
+        "favorite": 261,
+        "danmaku": 225,
+        "reply": 32,
+        "share": 10
+      },
+      "video_review": 225,
+      "status": "ok",
+      "source": "live",
+      "no": 41,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "原作：@新不理鲁德多  \n动画：我",
+      "featured": true,
+      "featured_order": 4,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1y4Hx6KEko",
+      "aid": 117388502636198,
+      "cid": 42487974005,
+      "title": "【圆桌动漫/刀子】桌桌子在线教你写刀子……",
+      "desc": "本家 @卦者那啥子靈風  -刀子",
+      "pic": "https://i2.hdslb.com/bfs/archive/817e10226e10e22d22f198087bdd1929d781aedc.jpg",
+      "duration": 70,
+      "length": "01:10",
+      "pubdate": 1791206603,
+      "created_str": "2026-10-05 21:23:23",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 1,
+      "stat": {
+        "view": 18797,
+        "like": 502,
+        "coin": 16,
+        "favorite": 346,
+        "danmaku": 101,
+        "reply": 24,
+        "share": 1
+      },
+      "video_review": 101,
+      "status": "ok",
+      "source": "live",
+      "no": 42,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "圆桌动漫",
+          "link": "https://space.bilibili.com/654552"
+        }
+      ],
+      "desc_display": "本家 @卦者那啥子靈風  -刀子",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV13gJe6AE27",
+      "aid": 117455275957020,
+      "cid": 42815587886,
+      "title": "【搬运】音街ウナ/d0tc0mmie-Iris Shining",
+      "desc": "https://open.spotify.com/track/3UkekWEZvPUYEBRr8zhLx3\nIris Shining\nComposer&Lyricist:ゆり 沸かない(d0tc0mmie)\nMusic:d0tc0mmie\nVocal:Otomachi Una\n没找到歌词",
+      "pic": "https://i1.hdslb.com/bfs/archive/f82f88246388dc739bef14f09c1dfac31a96d45b.jpg",
+      "duration": 131,
+      "length": "02:11",
+      "pubdate": 1792225351,
+      "created_str": "2026-10-17 16:22:31",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 2,
+      "stat": {
+        "view": 784,
+        "like": 93,
+        "coin": 5,
+        "favorite": 50,
+        "danmaku": 0,
+        "reply": 16,
+        "share": 5
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 43,
+      "category": "搬运",
+      "participation": "转载",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "d0tc0mmie",
+          "link": "https://space.bilibili.com/3546729546778833"
+        }
+      ],
+      "desc_display": "https://open.spotify.com/track/3UkekWEZvPUYEBRr8zhLx3\nIris Shining\nComposer&Lyricist:ゆり 沸かない(d0tc0mmie)\nMusic:d0tc0mmie\nVocal:Otomachi Una\n没找到歌词",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1DWxp6LEKK",
+      "aid": 117539212366165,
+      "cid": 43227351808,
+      "title": "WELCOME TO THE MIND FxxK![术曲论破三创]mind brand",
+      "desc": "原作者：@新不理鲁德多",
+      "pic": "https://i0.hdslb.com/bfs/archive/122f9b35b69ac28648527f5c15aa7ccc695b0379.jpg",
+      "duration": 17,
+      "length": "00:17",
+      "pubdate": 1793506195,
+      "created_str": "2026-11-01 12:09:55",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 611,
+        "like": 62,
+        "coin": 3,
+        "favorite": 18,
+        "danmaku": 0,
+        "reply": 6,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 44,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "原作者：@新不理鲁德多",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV1wk4J68Edw",
+      "aid": 117575652479397,
+      "cid": 43414782938,
+      "title": "[DSH制作]一键生成弹丸论破二创视频的自动化工具！AI开发中！！",
+      "desc": "github仓库：https://github.com/rftgcftctchcg/dangonronpasecondlycreatestudio\n灵感来自术曲论破主编@新不理鲁德多",
+      "pic": "https://i0.hdslb.com/bfs/archive/a863238cd4af07e2b2c4f7e4484f1b67cf7089d5.jpg",
+      "duration": 158,
+      "length": "02:38",
+      "pubdate": 1794062980,
+      "created_str": "2026-11-07 22:49:40",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 1543,
+        "like": 60,
+        "coin": 3,
+        "favorite": 34,
+        "danmaku": 2,
+        "reply": 10,
+        "share": 1
+      },
+      "video_review": 2,
+      "status": "ok",
+      "source": "live",
+      "no": 45,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "github仓库：https://github.com/rftgcftctchcg/dangonronpasecondlycreatestudio\n灵感来自术曲论破主编@新不理鲁德多",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV13isV6pEkR",
+      "aid": 117615196377488,
+      "cid": 26036016393,
+      "title": "⚡️术力口部分群体现状⚡️（借代）【猪猪侠】",
+      "desc": "请理性思辨，非引战，仅阐述问题",
+      "pic": "https://i0.hdslb.com/bfs/archive/86a95905013e8e0fc6f2526373fd0a2fcf6f3cf0.jpg",
+      "duration": 99,
+      "length": "01:39",
+      "pubdate": 1794665708,
+      "created_str": "2026-11-14 22:15:08",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 432,
+        "like": 41,
+        "coin": 0,
+        "favorite": 7,
+        "danmaku": 0,
+        "reply": 4,
+        "share": 0
+      },
+      "video_review": 0,
+      "status": "ok",
+      "source": "live",
+      "no": 46,
+      "category": "其他",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        }
+      ],
+      "desc_display": "请理性思辨，非引战，仅阐述问题",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    },
+    {
+      "bvid": "BV134sn6kEfJ",
+      "aid": 117619021651786,
+      "cid": 26036474641,
+      "title": "【术论3创|抽象预警】苹果让刑",
+      "desc": "原作：@新不理鲁德多",
+      "pic": "https://i2.hdslb.com/bfs/archive/0c1a44784bd54992ec6c61b0ed8fe14a2034bcac.jpg",
+      "duration": 57,
+      "length": "00:57",
+      "pubdate": 1794723931,
+      "created_str": "2026-11-15 14:25:31",
+      "owner": {
+        "mid": 1016873598,
+        "name": "破軍星の終焉煌めき",
+        "face": "https://i0.hdslb.com/bfs/face/5688c4058878f0634fd31b5a28347f284aaae789.jpg"
+      },
+      "staff": [],
+      "copyright": 3,
+      "stat": {
+        "view": 2316,
+        "like": 258,
+        "coin": 9,
+        "favorite": 142,
+        "danmaku": 27,
+        "reply": 18,
+        "share": 4
+      },
+      "video_review": 27,
+      "status": "ok",
+      "source": "live",
+      "no": 47,
+      "category": "二创剪辑",
+      "participation": "全部制作",
+      "credits": [
+        {
+          "role": "投稿方",
+          "name": "破軍星の終焉煌めき",
+          "self": true,
+          "link": "https://space.bilibili.com/1016873598"
+        },
+        {
+          "role": "原作者",
+          "name": "新不理鲁德多",
+          "link": "https://space.bilibili.com/1753688514"
+        }
+      ],
+      "desc_display": "原作：@新不理鲁德多",
+      "featured": false,
+      "featured_order": null,
+      "hidden": false,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+---
+import { siteStats, statsDate } from "../data/works";
+import { t } from "../i18n/ui";
+import { dataAsOfLabel } from "../i18n/ui";
+import { homePath } from "../utils/paths";
+import type { Lang } from "../utils/paths";
+import SnsLinks from "./SnsLinks.astro";
+import WaveLine from "./WaveLine.astro";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const home = homePath(lang);
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <WaveLine class="site-footer__wave" />
+    <p class="site-footer__sig">{t("footerSig", lang)}</p>
+    <p class="site-footer__name">{t("footerName", lang)}</p>
+    <p class="site-footer__role mono">RIPJune — {t("footerRole", lang)}</p>
+    <div class="site-footer__bottom">
+      <a class="site-footer__home mono" href={home}>RIPJUNE</a>
+      <SnsLinks variant="icons" lang={lang} />
+      <span class="site-footer__asof mono">
+        {dataAsOfLabel(lang, statsDate)} · {siteStats.profile.fans?.toLocaleString("en-US")} fans
+      </span>
+      <span class="site-footer__copy mono">{t("copyright", lang)}</span>
+    </div>
+  </div>
+</footer>

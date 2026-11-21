@@ -1,0 +1,36 @@
+---
+interface Props {
+  size?: number | string;
+  class?: string;
+  animated?: boolean;
+  stroke?: string;
+  dot?: boolean;
+}
+
+const {
+  size = 40,
+  class: className = "",
+  animated = false,
+  stroke = "currentColor",
+  dot = false,
+} = Astro.props;
+---
+
+<svg
+  class:list={["ring", className, animated && "ring--spin"]}
+  width={size}
+  height={size}
+  viewBox="0 0 100 100"
+  aria-hidden="true"
+  focusable="false"
+>
+  <g fill="none" stroke={stroke} stroke-width="5" stroke-linecap="butt">
+    <g class="ring-arc ring-arc--a">
+      <circle cx="50" cy="50" r="42" pathLength="360" stroke-dasharray="150 210" transform="rotate(-15 50 50)" />
+    </g>
+    <g class="ring-arc ring-arc--b">
+      <circle cx="50" cy="50" r="42" pathLength="360" stroke-dasharray="150 210" transform="rotate(165 50 50)" />
+    </g>
+  </g>
+  {dot && <circle cx="50" cy="50" r="4" fill="var(--c-red)" />}
+</svg>

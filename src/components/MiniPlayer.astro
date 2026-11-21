@@ -1,0 +1,32 @@
+---
+import { t } from "../i18n/ui";
+import type { Lang } from "../utils/paths";
+import Ring from "./Ring.astro";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<aside class="mini-player" data-mini-player aria-label="Mini player">
+  <button
+    class="mini-player__toggle"
+    type="button"
+    data-mini-toggle
+    aria-expanded="false"
+    aria-controls="mini-player-panel"
+    aria-label="Open mini player"
+  >
+    <Ring size={22} dot />
+  </button>
+  <div class="mini-player__panel" id="mini-player-panel" data-mini-panel aria-hidden="true">
+    <button class="mini-player__close mono" type="button" data-mini-close aria-label={t("close", lang)}>×</button>
+    <p class="mini-player__label mono">{t("noSignal", lang)}</p>
+    <p class="mini-player__title display">RIPJUNE</p>
+    <p class="mini-player__text">{t("comingSoon", lang)}</p>
+    <div class="mini-player__wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="mini-player__time mono">00:00 / --:--</div>
+  </div>
+</aside>

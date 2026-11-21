@@ -1,0 +1,27 @@
+---
+interface Props {
+  class?: string;
+  height?: number;
+  animated?: boolean;
+}
+
+const { class: className = "", height = 24, animated = false } = Astro.props;
+---
+
+<svg
+  class:list={["wave", className, animated && "wave--draw"]}
+  viewBox="0 0 240 24"
+  height={height}
+  width="100%"
+  preserveAspectRatio="none"
+  aria-hidden="true"
+  focusable="false"
+>
+  <path
+    d="M0 12 H48 L56 12 L62 4 L68 20 L74 12 H112 L120 12 L126 2 L132 22 L138 12 H180 L188 12 L194 6 L200 18 L206 12 H240"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.5"
+    vector-effect="non-scaling-stroke"
+  />
+</svg>

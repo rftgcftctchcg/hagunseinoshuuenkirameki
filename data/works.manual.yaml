@@ -1,0 +1,473 @@
+# RIPJune 作品标注（唯一手改文件）
+# 1) 填 category（必填）：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+# 2) 需要时改 participation / credits；featured 控制 WORKS 精选组
+# 3) 校验：python bili_annotate.py --check
+#    合并：python bili_fetch_works.py --merge
+
+schema: 1
+
+self:
+  mid: 1016873598
+  altMids: [3707010312833870]
+  name: "破軍星の終焉煌めき"
+  aliases:
+    - "永存瑶光_烛照周天"
+    - "在瑶光中永存"
+    - "破軍星の终焉煌めき"
+    - "Hagunseishn_Krmk"
+
+categories:
+  二创剪辑: { ja: "二次創作", en: "Fan Edit" }
+  VOCALOID: { ja: "VOCALOID", en: "VOCALOID" }
+  原创曲: { ja: "オリジナル", en: "Original" }
+  搬运: { ja: "転載", en: "Repost" }
+  其他: { ja: "その他", en: "Other" }
+
+works:
+
+  # NO.001 · 2026-04-11 · 30,973 播放 · 自制
+  # 瞧一瞧，看一看呐，又一个圆桌小UP主从炼丹炉里出来了！【新人驾到，请多指教】
+  BV1M5DCB8E9i:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.002 · 2026-04-12 · 5,266 播放 · 自制
+  # “不是朋友”/“笼中瑶，何时飞”《精卫》【圆桌动漫剪辑】
+  BV1shDmBNE25:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.003 · 2026-04-18 · 59,520 播放 · 自制
+  # “有一个人来买油条……”【圆桌动漫剪辑】
+  BV1hkdLBNEwt:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.004 · 2026-04-18 · 16,005 播放 · 自制
+  # 【全程高能】十大反派敬上！
+  BV1TcdpB7EDR:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.005 · 2026-04-24 · 28,858 播放 · 自制
+  # 【圆桌动漫/颗秒funk/我是秦始皇/精卫】颗秒！其实我是秦始皇，不会填海不会飞
+  BV1Q3ojBuEMs:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.006 · 2026-04-26 · 32,088 播放 · 自制
+  # 【圆桌动漫 × 喜鹊谋杀案】雅娴谋杀案仿OP制作
+  BV13tofBtEH1:
+    category: "二创剪辑"
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.007 · 2026-04-30 · 782 播放 · 自制
+  # 【圆桌动漫】枯木逢春《瑶瑶喜欢我》《冰山学姐有点甜》
+  BV1qw9aBSEJZ:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.008 · 2026-04-30 · 1,422 播放 · 自制
+  # 凡子与锋子游于濠梁之上
+  BV1Yd9eBHExn:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.009 · 2026-04-30 · 11,176 播放 · 自制
+  # 世有伯乐，然后有千里马
+  BV1cq9eBeE15:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.010 · 2026-05-01 · 5,234 播放 · 自制
+  # 《圆桌动漫你别后悔》
+  BV1yL9qBLEfB:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.011 · 2026-05-02 · 34,968 播放 · 自制
+  # 【圆桌动漫】（请各位桌粉务必观看该视频）圆 · 桌 · 回 · 忆 · 录
+  BV1uKRuBkE7C:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.012 · 2026-05-02 · 4,324 播放 · 自制
+  # 【洛天依 × 圆桌动漫】《我是公孙雅柔》（我是公孙雅柔这才是瑶曦）
+  BV1mKREBYEAU:
+    category: "VOCALOID"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方 / 改编", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原词/曲", name: "WOVOP", link: "https://space.bilibili.com/33910972" }
+      - { role: "本家", name: "我是初音未来", link: "https://www.bilibili.com/video/BV1MmZ6YjEDT" }
+
+  # NO.013 · 2026-05-03 · 529,861 播放 · 自制
+  # 【圆桌动漫】（绝对高质）论真女主这一块，谁是颜值与实力并存的十大女主之最？
+  BV17Q9fBcE8M:
+    category: "二创剪辑"
+    participation: "全部制作"
+    featured: true
+    featuredOrder: 1
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.014 · 2026-05-04 · 729 播放 · 自制
+  # 【观前提示：请准备一袋糯米和三柄桃木剑】“笼中瑶雅笑，何时飞哟飞”
+  BV1kKRvBqELw:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.015 · 2026-05-05 · 361 播放 · 自制
+  # 【观前提示：请准备一袋糯米和三柄桃木剑】“笼中锋，何时飞”
+  BV1rERrBXExH:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.016 · 2026-05-09 · 20,342 播放 · 自制
+  # 【圆桌动漫】时间过得这么快啊……
+  BV1ZNRQBGEM6:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.017 · 2026-05-15 · 9,611 播放 · 自制
+  # 已知萧凡为正比例函数，求()^2的值
+  BV1Q35v6XEHa:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.018 · 2026-05-15 · 2,608 播放 · 自制
+  # 【圆桌动漫】赐我一场相爱，怎么你又匆匆地离开
+  BV1145q6nEke:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.019 · 2026-05-15 · 433,479 播放 · 自制
+  # 以前的圆桌vs现在的圆桌
+  BV1jP5q6KE3k:
+    category: "二创剪辑"
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.020 · 2026-05-15 · 20,131 播放 · 自制
+  # 【圆桌动漫】瑶瑶党和人民需要你！
+  BV1V35q6hETj:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.021 · 2026-05-17 · 24,408 播放 · 联合投稿
+  # 【雅柔生贺作品/圆桌动漫/填词/西蒙海耶】HEAVENLY JUMPSTYLE（双面帝王特供版）暨·雅柔生日快乐
+  BV1upLV6fEfN:
+    category: "二创剪辑"
+    participation: "代投 · 填词/视频制作/策划"
+    credits:
+      - { role: "视频制作 / 调音 / 词 / 策划", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "投稿方", name: "夏玔瑶辉", link: "https://space.bilibili.com/675059275" }
+      - { role: "素材来源", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+      - { role: "曲", name: "夏玔瑶辉", link: "https://space.bilibili.com/675059275" }
+      - { role: "鸣谢", name: "夏玔瑶辉", link: "https://space.bilibili.com/675059275" }
+      - { role: "鸣谢", name: "xt喜糖", link: "https://space.bilibili.com/3493145937447264" }
+      - { role: "鸣谢", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+      - { role: "曲", name: "John Kell" }
+      - { role: "原曲", name: "HEAVENLY JUMPSTYLE" }
+
+  # NO.022 · 2026-05-22 · 1,573 播放 · 自制
+  # 《LOVE IS GONE》
+  BV113Gt6QEQ4:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.023 · 2026-06-06 · 395 播放 · 自制
+  # [MIKU/洛天依&WOVOP&圆桌动漫]我是千本未柔（我是初音未来+千本桜+圆桌动漫）
+  BV1e5En6FEWf:
+    category: "VOCALOID"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "调教/混音"
+    credits:
+      - { role: "投稿方 / PV / 调教（瞎调） / 混音（瞎混）", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原词", name: "WOVOP", link: "https://space.bilibili.com/33910972" }
+      - { role: "本家1", name: "我是初音未来", link: "https://www.bilibili.com/video/BV1MmZ6YjEDT" }
+      - { role: "本家2", name: "千本桜", link: "https://www.youtube.com/watch?v=shs0rAiwsGQ" }
+      - { role: "人物形象", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.024 · 2026-06-07 · 2,372 播放 · 自制
+  # 【圆桌动漫】拼接属于萧凡和瑶曦的遗憾
+  BV1GMEt6jE4E:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.025 · 2026-06-19 · 1,266 播放 · 自制
+  # 【圆桌动漫&ilem】《念萧师》（萧凡老师我还记得你一句一句把我拉进坟墓里）+《白鸟过河滩》
+  BV1P2jq6sE2b:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.026 · 2026-06-19 · 952 播放 · 自制
+  # 【圆桌动漫】瑶来！瑶来！妈咪妈咪哄！（）
+  BV1w8ji67EGN:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.027 · 2026-07-03 · 676 播放 · 自制
+  # 天道先生（阴阳先生翻填）.ft重音teto&星尘infinity
+  BV19DTx6UE2p:
+    category: "VOCALOID"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+      - { role: "原词/曲", name: "ilem", link: "https://space.bilibili.com/3379951" }
+      - { role: "本家", name: "白鸟过河滩", link: "https://www.bilibili.com/video/BV1wT4y1k7Pw" }
+
+  # NO.028 · 2026-07-08 · 4,428 播放 · 自制
+  # 【圆桌动漫】瑶曦：爹系男友喜欢吗？
+  BV1TmMG6MEXs:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.029 · 2026-07-11 · 851 播放 · 自制
+  # 勾指起誓（圆桌动漫）
+  BV1U2Nx6vETv:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "本家", name: "ilem", link: "https://space.bilibili.com/3379951" }
+
+  # NO.030 · 2026-07-13 · 2,093 播放 · 自制
+  # ⚡️眼睛瞎在瑶曦上⚡️
+  BV15tNy6hE5S:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.031 · 2026-07-30 · 743 播放 · 自制
+  # （超燃剪辑）【圆桌动漫/萧凡/雅柔】二拜天地
+  BV1gB3b6FEew:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.032 · 2026-07-31 · 316 播放 · 自制
+  # 【圆桌动漫】四重罪孽REPV前奏
+  BV1H9Gc6uEY7:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "人物形象", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+      - { role: "本家", name: "四重罪孽", link: "https://www.bilibili.com/video/BV1us411X7hb" }
+
+  # NO.033 · 2026-08-05 · 1,923 播放 · 自制
+  # 【圆桌论破】黑白之夜卷·第一章：暴雨来临前的大风
+  BV1xDMy6xExu:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "鸣谢", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.034 · 2026-08-11 · 28,648 播放 · 自制
+  # 【圆桌论破】OP主题曲《Never Say Never》
+  BV1aXuB69EoH:
+    category: "二创剪辑"
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+      - { role: "鸣谢", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.035 · 2026-08-17 · 6,486 播放 · 自制
+  # 【重音テト&初音ミク(？)/超绝中文填词！】催眠术 ||请接收我为这个世界最后的浮华 一比一复刻的人生必胜法【サツキ】
+  BV15fbR6pE7H:
+    category: "VOCALOID"
+    participation: "中文填词/调教"
+    featured: true
+    featuredOrder: 2
+    credits:
+      - { role: "投稿方 / Lyrics / Tuning", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "Mix", name: "咕咕札",link: "https://space.bilibili.com/3632306401052727" }
+      - { role: "Original", name: "サツキ", link: "https://www.bilibili.com/video/BV15J4m1A7qy" }
+      - { role: "Vocal", name: "重音テト & 初音ミク（CV：星塵インフィニティ）" }
+      - { role: "UST", name: "アトリ科ヒワ属ゲン", link: "https://bowlroll.net/user/317762" }
+      - { role: "Editor", name: "SynthesizerV Studio" }
+
+  # NO.036 · 2026-08-27 · 361,564 播放 · 联合投稿
+  # 【弹丸论破vocaloid】第四章学籍裁判（下）
+  BV1q3hA6nEnz:
+    category: "二创剪辑"
+    participation: "视频制作"
+    featured: true
+    featuredOrder: 3
+    credits:
+      - { role: "视频制作", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "投稿方", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+      - { role: "设计", name: "复方砂糖", link: "https://space.bilibili.com/3263335" }
+      - { role: "策划", name: "捕食ひ捕食", link: "https://space.bilibili.com/3546733619448504" }
+      - { role: "策划", name: "曲谱新乐奏华苍", link: "https://space.bilibili.com/3494363061553428" }
+      - { role: "设计", name: "远糖牢帝", link: "https://space.bilibili.com/3493293539199623" }
+
+  # NO.037 · 2026-08-27 · 4,306 播放 · 自制
+  # 【弹丸论破vocaloid】仿弹丸论破风格||转生苹果&爱属性的反论对决
+  BV1xZhw6cEKT:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.038 · 2026-08-29 · 2,346 播放 · 自制
+  # 【圆桌论破】第一案·第二章：漆黑夜幕下的诡秘
+  BV1Lf4y6REZR:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "指路/鸣谢", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.039 · 2026-09-05 · 351 播放 · 联合投稿
+  # MIKU'S REBIRTH【bilibilionly同人扶持计划】
+  BV1QEt269EzL:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "联合投稿（剪辑）"
+    credits:
+      - { role: "投稿方 / 剪辑", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.040 · 2026-09-12 · 6,333 播放 · 联合投稿
+  # 【圆桌论破】（超级文本量）黑白之夜卷·第一案·第三章·搜查篇--席卷管理所的风暴式搜查—“门”【弹丸论破二创】【圆桌动漫】
+  BV1tsYR6nE6x:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "联合投稿（编剧）"
+    credits:
+      - { role: "投稿方 / 编剧", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "设计", name: "小瑶不会剪", link: "https://space.bilibili.com/3546772880230998" }
+      - { role: "鸣谢", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.041 · 2026-09-27 · 7,819 播放 · 自制
+  # 【弹丸论破vocaloid/原创PV】脑浆炸裂少女-术曲论破宣传PV（部分）
+  BV1bKab6CE4F:
+    category: "二创剪辑"
+    participation: "全部制作"
+    featured: true
+    featuredOrder: 4
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.042 · 2026-10-05 · 18,797 播放 · 自制
+  # 【圆桌动漫/刀子】桌桌子在线教你写刀子……
+  BV1y4Hx6KEko:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "圆桌动漫", link: "https://space.bilibili.com/654552" }
+
+  # NO.043 · 2026-10-17 · 784 播放 · 转载
+  # 【搬运】音街ウナ/d0tc0mmie-Iris Shining
+  BV13gJe6AE27:
+    category: "搬运"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "转载"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "本家", name: "d0tc0mmie", link: "https://space.bilibili.com/3546729546778833" }
+
+  # NO.044 · 2026-11-01 · 611 播放 · 自制
+  # WELCOME TO THE MIND FxxK![术曲论破三创]mind brand
+  BV1DWxp6LEKK:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }
+
+  # NO.045 · 2026-11-07 · 1,543 播放 · 自制
+  # [DSH制作]一键生成弹丸论破二创视频的自动化工具！AI开发中！！
+  BV1wk4J68Edw:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.046 · 2026-11-14 · 432 播放 · 自制
+  # ⚡️术力口部分群体现状⚡️（借代）【猪猪侠】
+  BV13isV6pEkR:
+    category: "其他"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+
+  # NO.047 · 2026-11-15 · 2,316 播放 · 自制
+  # 【术论3创|抽象预警】苹果让刑
+  BV134sn6kEfJ:
+    category: "二创剪辑"  # TODO 必填：二创剪辑 / VOCALOID / 原创曲 / 搬运 / 其他
+    participation: "全部制作"
+    credits:
+      - { role: "投稿方", name: "破軍星の終焉煌めき", link: "https://space.bilibili.com/1016873598", self: true }
+      - { role: "原作者", name: "新不理鲁德多", link: "https://space.bilibili.com/1753688514" }

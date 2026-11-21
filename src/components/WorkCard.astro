@@ -1,0 +1,65 @@
+---
+import {
+  coverUrl,
+  formatDate,
+  formatView,
+  ownerLabel,
+  participationKind,
+  participationLabel,
+  type Work,
+} from "../data/works";
+import { assetPath, workPath } from "../utils/paths";
+import type { Lang } from "../utils/paths";
+
+interface Props {
+  work: Work;
+  lang: Lang;
+}
+
+const { work, lang } = Astro.props;
+const kind = participationKind(work.participation);
+const href = workPath(lang, work.bvid);
+const cover = coverUrl(work.pic, "card");
+const fallback = assetPath("ring-placeholder.svg");
+const no = String(work.no).padStart(3, "0");
+---
+
+<a
+  class:list={["work-card", work.featured && "work-card--featured"]}
+  href={href}
+  data-work-card
+  data-category={work.category}
+  data-participation={kind}
+  data-featured={String(work.featured)}
+  data-order={work.featured_order ?? 999}
+  data-view={work.stat.view}
+  aria-label={work.title}
+>
+  <span class="work-card__media">
+    <img
+      src={cover}
+      data-fallback={fallback}
+      alt={work.title}
+      width="480"
+      height="270"
+      loading="lazy"
+      decoding="async"
+      referrerpolicy="no-referrer"
+      transition:name={`work-${work.bvid}`}
+      onerror="this.onerror=null;this.src=this.dataset.fallback;"
+    />
+    <span class="work-card__no mono">NO.{no}</span>
+    <span class:list={["work-card__badge", `work-card__badge--${kind}`]}>
+      {participationLabel(work.participation, lang)}
+    </span>
+    <span class="work-card__hover" aria-hidden="true">
+      <span class="work-card__watch mono">WATCH ON BILIBILI ↗</span>
+    </span>
+  </span>
+  <span class="work-card__meta">
+    <span class="work-card__title">{work.title}</span>
+    <span class="work-card__sub mono">
+      {ownerLabel(work, lang)} · {formatDate(work.created_str)} · {formatView(work.stat.view)} ▶
+    </span>
+  </span>
+</a>

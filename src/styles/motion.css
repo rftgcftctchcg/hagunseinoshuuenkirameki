@@ -1,0 +1,133 @@
+/* Ring: two arcs counter-rotate */
+.ring--spin .ring-arc--a {
+  animation: ring-spin 40s linear infinite;
+}
+
+.ring--spin .ring-arc--b {
+  animation: ring-spin-rev 55s linear infinite;
+}
+
+@keyframes ring-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ring-spin-rev {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* ECG draw-in, triggered when the gate enters */
+.wave--draw path {
+  stroke-dasharray: 1400;
+  stroke-dashoffset: 1400;
+}
+
+.is-visible .wave--draw path {
+  animation: wave-draw 0.42s var(--ease) forwards;
+}
+
+@keyframes wave-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Scroll reveal */
+[data-reveal] {
+  transition: opacity 0.48s var(--ease), transform 0.48s var(--ease),
+    background-color 0.24s var(--ease), border-color 0.24s var(--ease);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.js [data-reveal]:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(18px);
+}
+
+.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Gate */
+.screen-gate__label,
+.screen-gate__next,
+.screen-gate__index {
+  transition: color 0.24s var(--ease), transform 0.24s var(--ease);
+}
+
+/* Header / nav */
+.site-nav__link,
+.lang-switch a,
+.header-sns a,
+.brand__text {
+  transition: color 0.24s var(--ease), opacity 0.24s var(--ease);
+}
+
+/* Cards */
+.featured-card,
+.work-card,
+.sns-card {
+  transition: border-color 0.24s var(--ease), transform 0.24s var(--ease);
+}
+
+/* Detail */
+.detail-play,
+.detail-watch,
+.credits__link,
+.back-link {
+  transition: color 0.24s var(--ease), background 0.24s var(--ease),
+    border-color 0.24s var(--ease);
+}
+
+/* Dialog */
+.lightbox[open] {
+  animation: lb-in 0.24s var(--ease);
+}
+
+@keyframes lb-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .site-bg::before {
+    animation: none;
+  }
+
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+
+  .ring--spin .ring-arc {
+    animation: none;
+  }
+
+  .wave--draw path {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media print {
+  .js [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

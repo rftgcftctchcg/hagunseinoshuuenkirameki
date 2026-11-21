@@ -1,0 +1,13 @@
+---
+import WorkDetailPage from "../../../components/WorkDetailPage.astro";
+import { works } from "../../../data/works";
+import type { Work } from "../../../data/works";
+
+export function getStaticPaths() {
+  return works.map((work) => ({ params: { bv: work.bvid }, props: { work } }));
+}
+
+const { work } = Astro.props as { work: Work };
+---
+
+<WorkDetailPage work={work} lang="en" />

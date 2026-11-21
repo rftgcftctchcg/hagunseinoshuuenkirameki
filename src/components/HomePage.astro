@@ -1,0 +1,412 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Ring from "../components/Ring.astro";
+import WaveLine from "../components/WaveLine.astro";
+import SnsLinks from "../components/SnsLinks.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import ScreenGate from "../components/ScreenGate.astro";
+import SheetCrop from "../components/SheetCrop.astro";
+import WorksExplorer from "../components/WorksExplorer.astro";
+import { ARCHIVE_SECTIONS } from "../data/archive";
+import {
+  FAVORITE_PRODUCERS,
+  FAVORITE_SINGERS,
+  MANIFESTO,
+  PORTRAIT,
+  PROFILE_ROWS,
+  PROFILE_STATS,
+  SKILLS,
+} from "../data/profile";
+import { MAIL, OTHER_TAGS } from "../data/social";
+import {
+  categoryLabel,
+  coverUrl,
+  formatDate,
+  formatView,
+  getLatest,
+  getTopFeatured,
+  participationLabel,
+  works,
+} from "../data/works";
+import { T, allWorksLabel, t, worksMeta } from "../i18n/ui";
+import type { Lang } from "../utils/paths";
+import { assetPath, workPath } from "../utils/paths";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const topFeatured = getTopFeatured();
+const latest = getLatest(3);
+const totalWorks = works.length;
+const fanCount = works.filter((work) => work.category === "二创剪辑").length;
+const vocaloidCount = works.filter((work) => work.category === "VOCALOID").length;
+const formatNo = (n: number) => String(n).padStart(3, "0");
+const languageOrder = ["ja", "zh", "en"] as const;
+const languageLabel = { ja: "日本語", zh: "中文", en: "ENGLISH" } as const;
+const fallback = assetPath("ring-placeholder.svg");
+const profileStatCells = [
+  { label: t("profileTotalView", lang), value: formatView(PROFILE_STATS.totalView) },
+  { label: t("profileTotalFavorite", lang), value: formatView(PROFILE_STATS.totalFavorite) },
+  { label: t("profileWorks", lang), value: String(PROFILE_STATS.count) },
+  { label: t("profileMaxView", lang), value: formatView(PROFILE_STATS.maxView) },
+];
+---
+
+<BaseLayout
+  lang={lang}
+  page="home"
+  canonicalPath={lang === "ja" ? "" : `${lang}/`}
+  title="RIPJune — Vocaloid Music Creator"
+  description="破軍星の終焉煌めき / メキチャン。二创剪辑与 Vocaloid 歌唱。"
+>
+  <section id="top" class="screen screen--top" aria-label="TOP">
+    <div class="top-hero">
+      <div class="top-meta mono">
+        <span>VOCALOID MUSIC CREATOR</span>
+        <span>メキチャン</span>
+      </div>
+      <div class="top-ring" aria-hidden="true"><Ring size={560} animated /></div>
+      <div class="top-copy wrap">
+        <h1 class="top-title display">RIPJUNE</h1>
+        <p class="top-vertical vertical">破軍星の終焉煌めき</p>
+        <p class="top-role mono">VOCALOID MUSIC CREATOR / メキチャン</p>
+      </div>
+      <div class="top-bottom wrap">
+        <p class="top-sig">{t("topTagline", lang)}</p>
+        <div class="top-actions">
+          <a class="scroll-cue mono" href="#profile">[ SCROLL ↓ ]</a>
+          <SnsLinks variant="icons" lang={lang} />
+        </div>
+      </div>
+    </div>
+
+    <div class="top-selected wrap">
+      <header class="top-selected__head" data-reveal>
+        <h2 class="display">{t("selectedWorks", lang)}</h2>
+        <span class="vertical">精选作品</span>
+      </header>
+      <div class="featured-grid">
+        {topFeatured.map((work, index) => (
+          <a
+            class:list={["featured-card", `featured-card--${index + 1}`]}
+            href={workPath(lang, work.bvid)}
+            data-reveal
+          >
+            <span class="featured-card__media">
+              <img
+                src={coverUrl(work.pic, "hero")}
+                data-fallback={fallback}
+                alt={work.title}
+                loading="lazy"
+                decoding="async"
+                referrerpolicy="no-referrer"
+                onerror="this.onerror=null;this.src=this.dataset.fallback;"
+              />
+            </span>
+            <span class="featured-card__no mono">NO.{formatNo(work.no)}</span>
+            <span class="featured-card__title">{work.title}</span>
+            <span class="featured-card__meta mono">
+              {formatDate(work.created_str)} · {participationLabel(work.participation, lang)} · {formatView(work.stat.view)} ▶
+            </span>
+          </a>
+        ))}
+      </div>
+      <a class="all-works mono" href="#works">{allWorksLabel(lang, totalWorks)}</a>
+    </div>
+
+    <div class="identity wrap">
+      <article class="identity-card" data-reveal style="--reveal-delay:0ms">
+        <span class="identity-card__no mono">01</span>
+        <h3 class="identity-card__title">{t("identityFan", lang)}</h3>
+        <p class="identity-card__jp vertical">{t("identityFanJp", lang)}</p>
+        <p class="identity-card__text">{t("identityFanText", lang)}</p>
+        <span class="identity-card__count mono">{fanCount} WORKS</span>
+      </article>
+      <article class="identity-card" data-reveal style="--reveal-delay:80ms">
+        <span class="identity-card__no mono">02</span>
+        <h3 class="identity-card__title">{t("identityVocaloid", lang)}</h3>
+        <p class="identity-card__jp vertical">{t("identityVocaloidJp", lang)}</p>
+        <p class="identity-card__text">{t("identityVocaloidText", lang)}</p>
+        <span class="identity-card__count mono">{vocaloidCount} WORKS</span>
+      </article>
+      <article class="identity-card" data-reveal style="--reveal-delay:160ms">
+        <span class="identity-card__no mono">03</span>
+        <h3 class="identity-card__title">{t("identityCharacter", lang)}</h3>
+        <p class="identity-card__jp vertical">{t("identityCharacterJp", lang)}</p>
+        <p class="identity-card__text">{t("identityCharacterText", lang)}</p>
+        <span class="identity-card__count mono">{totalWorks} WORKS</span>
+      </article>
+    </div>
+
+    <div class="latest wrap" data-reveal>
+      <header class="latest__head">
+        <h2 class="display">{t("latestWorks", lang)}</h2>
+        <p class="mono">{t("latestLead", lang)}</p>
+      </header>
+      <ol class="latest-list">
+        {latest.map((work) => (
+          <li>
+            <a href={workPath(lang, work.bvid)}>
+              <time class="mono">{formatDate(work.created_str)}</time>
+              <span class="latest-list__title">{work.title}</span>
+              <span class="mono">{categoryLabel(work.category, lang)}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <ScreenGate nextId="profile" nextIndex="02" nextLabel="PROFILE" lang={lang} />
+  </section>
+
+  <section id="profile" class="screen screen--profile" aria-label="PROFILE">
+    <div class="wrap">
+      <SectionHeader
+        index="02"
+        en="PROFILE"
+        jp="プロフィール"
+        meta="PROFILE / プロフィール / Profile"
+        lead={t("profileLead", lang)}
+      />
+
+      <div class="profile-stats" data-reveal>
+        {profileStatCells.map((cell) => (
+          <div class="profile-stat">
+            <span class="profile-stat__value mono">{cell.value}</span>
+            <span class="profile-stat__label mono">{cell.label}</span>
+          </div>
+        ))}
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-visual" data-reveal>
+          <div class="profile-face"><SheetCrop rect={PORTRAIT.face} alt="mekichann portrait" /></div>
+          <div class="profile-body"><SheetCrop rect={PORTRAIT.body} alt="mekichann full body" /></div>
+          <div class="profile-avatar">
+            <img src={assetPath("avatar.png")} alt="mekichann avatar" width="64" height="64" loading="lazy" />
+            <span class="mono">mekichann</span>
+          </div>
+        </div>
+
+        <div class="profile-copy">
+          <div class="manifesto" data-reveal>
+            {languageOrder.map((item) => (
+              <section
+                class:list={["manifesto__block", item === lang && "is-current"]}
+                lang={item === "zh" ? "zh-CN" : item}
+              >
+                <h3 class="mono">{languageLabel[item]}</h3>
+                {MANIFESTO[item].map((line) => <p>{line}</p>)}
+              </section>
+            ))}
+          </div>
+          <dl class="profile-data" data-reveal>
+            {PROFILE_ROWS.map((row) => (
+              <div class="profile-data__row">
+                <dt class="mono">{t(row.key as keyof typeof T, lang)}</dt>
+                <dd>{row.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </div>
+
+      <div class="profile-lower">
+        <section class="profile-block" data-reveal>
+          <h3 class="mono">{t("skills", lang)}</h3>
+          <ul class="tag-list">
+            {SKILLS.map((skill) => (
+              <li class:list={[skill.level === "learning" && "is-learning"]}>
+                <span>{skill.name[lang]}</span>
+                <span class="mono">{t(skill.level === "skilled" ? "skilled" : "learning", lang)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="profile-block" data-reveal>
+          <h3 class="mono">{t("favorites", lang)}</h3>
+          <div class="favorites">
+            <div>
+              <h4 class="mono">{t("favoriteSinger", lang)}</h4>
+              <p>{FAVORITE_SINGERS.join(" / ")}</p>
+            </div>
+            <div>
+              <h4 class="mono">{t("favoriteProducer", lang)}</h4>
+              <p>{FAVORITE_PRODUCERS.join(" / ")}</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="profile-block profile-collab" data-reveal>
+          <h3 class="mono">{t("collab", lang)}</h3>
+          <p class="profile-collab__solo">{t("collabSolo", lang)}</p>
+          <p>{t("collabNo", lang)}</p>
+          <p>{t("collabNoShort", lang)}</p>
+          <p class="profile-collab__looking">
+            {t("collabLooking", lang)}
+            <br />
+            <small>{t("collabNotInvite", lang)}</small>
+          </p>
+        </section>
+      </div>
+
+      <div class="profile-sns" data-reveal>
+        <h3 class="mono">{t("sns", lang)}</h3>
+        <SnsLinks variant="row" lang={lang} />
+      </div>
+
+      <div class="profile-cta">
+        <a class="button" href="#works">{t("profileCtaWorks", lang)}</a>
+        <a class="button" href="#archive">{t("profileCtaArchive", lang)}</a>
+      </div>
+    </div>
+
+    <ScreenGate nextId="works" nextIndex="03" nextLabel="WORKS" lang={lang} />
+  </section>
+
+  <section id="works" class="screen screen--works" aria-label="WORKS">
+    <div class="wrap">
+      <SectionHeader
+        index="03"
+        en="WORKS"
+        jp="作品"
+        meta={worksMeta(lang, totalWorks)}
+        lead={t("worksLead", lang)}
+      />
+      <WorksExplorer lang={lang} />
+    </div>
+    <ScreenGate nextId="social" nextIndex="04" nextLabel="SOCIAL" lang={lang} />
+  </section>
+
+  <section id="social" class="screen screen--social screen--tint" aria-label="SOCIAL">
+    <div class="wrap">
+      <SectionHeader
+        index="04"
+        en="SOCIAL"
+        jp="連絡"
+        meta="X / YOUTUBE / NICONICO / BILIBILI"
+        lead={t("socialLead", lang)}
+      />
+
+      <div class="social-grid">
+        <SnsLinks variant="cards" lang={lang} />
+        <div class="social-contact" data-reveal>
+          <h3 class="mono">{t("contact", lang)}</h3>
+          <p class="social-mail">
+            <a href={`mailto:${MAIL}`}>{MAIL}</a>
+            <button
+              type="button"
+              class="copy-button mono"
+              data-copy-mail
+              data-mail={MAIL}
+              data-copied={t("copied", lang)}
+            >{t("copy", lang)}</button>
+          </p>
+          <p class="social-personal mono">{t("personalMail", lang)}</p>
+          <h3 class="mono">{t("other", lang)}</h3>
+          <ul class="tag-list tag-list--small">
+            {OTHER_TAGS.map((tag) => <li>{tag}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <div class="social-copyright" data-reveal>
+        <p>{t("copyright1", lang)}</p>
+        <p>{t("copyright2", lang)}</p>
+        <p>{t("copyright3", lang)}</p>
+      </div>
+      <p class="social-signature display" data-reveal>{t("footerSig", lang)}</p>
+    </div>
+
+    <ScreenGate nextId="archive" nextIndex="05" nextLabel="ARCHIVE" lang={lang} />
+  </section>
+
+  <section id="archive" class="screen screen--archive" aria-label="ARCHIVE">
+    <div class="wrap">
+      <SectionHeader
+        index="05"
+        en="ARCHIVE"
+        jp="設定資料"
+        meta="10 SECTIONS / CHARACTER SHEET"
+        lead={t("archiveLead", lang)}
+      />
+
+      <div class="archive-layout">
+        <aside class="archive-toc" aria-label="ARCHIVE">
+          <ol>
+            {ARCHIVE_SECTIONS.map((section) => (
+              <li>
+                <a href={`#${section.id}`}>
+                  <span class="mono">{section.no}</span>
+                  <span>{section.label}</span>
+                  <span class="mono archive-toc__jp">{section.jp}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </aside>
+
+        <div class="archive-content">
+          {ARCHIVE_SECTIONS.map((section) => (
+            <article id={section.id} class="archive-section" data-reveal>
+              <header class="archive-section__head">
+                <span class="mono">{section.no}</span>
+                <h3 class="display">{section.label}</h3>
+                <span class="vertical">{section.jp}</span>
+              </header>
+              <p class="archive-section__text">{section.text[lang]}</p>
+
+              {section.images && (
+                <div class="archive-images">
+                  {section.images.map((image) => (
+                    <figure>
+                      <SheetCrop rect={image.rect} alt={image.alt[lang]} />
+                      <figcaption class="mono">{image.alt[lang]}</figcaption>
+                    </figure>
+                  ))}
+                </div>
+              )}
+
+              {section.expressions && (
+                <div class="expression-grid">
+                  {section.expressions.map((expression) => (
+                    <figure>
+                      <SheetCrop rect={expression.rect} alt={expression.label[lang]} />
+                      <figcaption class="mono">{expression.label[lang]}</figcaption>
+                    </figure>
+                  ))}
+                </div>
+              )}
+
+              {section.colors && (
+                <div class="color-grid">
+                  {section.colors.map((color) => (
+                    <button
+                      type="button"
+                      class="color-card"
+                      data-hex={color.hex}
+                      style={`--hex:${color.hex}`}
+                    >
+                      <span class="color-card__swatch"></span>
+                      <span class="color-card__label mono">{color.label[lang]}</span>
+                      <span class="color-card__hex mono">{color.hex}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div class="end-mark" data-reveal>
+        <WaveLine />
+        <p class="mono">{t("endTransmission", lang)}</p>
+        <p class="display">{t("footerSig", lang)}</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
